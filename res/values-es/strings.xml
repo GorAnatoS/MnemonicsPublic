@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    системные   -->
+    <string name="lang">es</string>
+
+    <!-- строки   -->
+    <string name="how_many_n_remember">Cuanto recordar</string>
+    <string name="auto_next">Transición del temporizador</string>
+    <string name="time_per_one">para 1 objeto (seg):</string>
+    <string name="memorize_only_one_deck">Solo una baraja</string>
+
+    <string name="go">¡Vamos!</string>
+    <string name="number_range">Rango de números</string>
+    <string name="how_to_enter_ans">Respuesta</string>
+
+    <string name="change_modes_visualization">cambiar modo de visualización</string>
+
+    <string name="help">Ayuda</string>
+    <string name="choose_card">Seleccione una tarjeta:</string>
+    <string name="choose_figure">Seleccione la figura:</string>
+    <string name="no_exam_data">No hay datos. Pase el examen.</string>
+    <string name="settings">Ajustes</string>
+
+    <!--  Экран настроек -->
+    <string name="application_settings">Configuraciones de la aplicación</string>
+    <string name="pref_answer_settings">Modo de entrada de respuesta</string>
+    <string name="answer_input_mode">Modo de entrada</string>
+    <string name="to_type_answer">escribir</string>
+    <string name="to_choose_answer">elegir</string>
+    <string name="memorization_screen_settings">Pantalla durante la memorización</string>
+    <string name="tip_mode_settings">Modo de aviso </string>
+    <string name="image_label">imagen</string>
+    <string name="text_label">texto</string>
+    <string name="choose_application_language">Idioma</string>
+    <string name="russian_lang">ruso</string>
+    <string name="english_lang">inglés</string>
+    <string name="spanish_lang">español</string>
+    <string name="enable_dark_theme">Habilitar tema oscuro</string>
+    <string name="enable_timer">Mostrar temporizador</string>
+    <string name="backward_recall_mode">Recordar al revés</string>
+    <string name="backward_recall_summary">ingrese las respuestas de la última a la primera</string>
+    <string name="notifications_summary">Si durante el período especificado no ha iniciado sesión en la aplicación, muestre recordatorios.</string>
+    <string name="notifications_settings_summary">Notificaciones y recordatorios</string>
+    <string name="notifications_waiting_days_summary">Establezca después de cuántos días de su ausencia en la aplicación para mostrar notificaciones.</string>
+    <string name="general_settings_summary">Lenguaje y apariencia</string>
+    <string name="application_version">Versión</string>
+    <string name="general_settings_title">General</string>
+    <string name="memorization_settings_title">Memorización</string>
+    <string name="memorization_settings_summary">Modo de entrada y configuración de pantalla</string>
+    <string name="notifications_settings_title">Notificaciones</string>
+    <string name="notifications_waiting_days_title">Días</string>
+
+    <string name="are_you_sure_to_exit_your_account">¿Quieres cerrar sesión en tu cuenta?</string>
+    <string name="stay_your_account">Quedarse</string>
+    <string name="sign_out_your_account">Cerrar</string>
+
+    <!-- title fragment`s-->
+    <string name="tip">Pista</string>
+
+    <string name="numbers">Números</string>
+    <string name="cards">Naipes</string>
+    <string name="words">Palabras</string>
+    <string name="figures">Figuras</string>
+    <string name="pi_digits">Dígitos π</string>
+
+    <string name="memo">Mnemotécnica</string>
+    <string name="deck">Naipes</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="donation">Ayuda/Realimentación</string>
+    <string name="done">"Completar "</string>
+    <string name="memorized">"Recordado"</string>
+    <string name="wrong_answer">Entrada incorrecta</string>
+
+    <string name="all_together">todos</string>
+    <string name="remember_words_from">Palabras de</string>
+    <string name="by_one">por uno</string>
+    <string name="memorize_by">Memorizar</string>
+    <string name="from_dictionary">del diccionario</string>
+    <string name="from_4bk_images">(PPI) - imágenes</string>
+
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="old_name_is">Nombre antiguo =&#160;</string>
+    <string name="wrong_input">Entrada incorrecta</string>
+    <string name="enter_new_name">Escriba un nuevo nombre</string>
+    <string name="memo_index_label">Índice de memorización</string>
+    <string name="statistics_cleared">Estadísticas restablecidas</string>
+    <string name="drop_statistics">¿Quieres restablecer las estadísticas?</string>
+    <string name="title_ans_exam_choosing_fragment">Elegir la respuesta</string>
+    <string name="title_ans_exam_typing_fragment">Introduzca la respuesta</string>
+    <string name="title_donut_fragment">Apoyar el proyecto</string>
+    <string name="title_help_n_fragment">Pista</string>
+    <string name="title_re_check_fragment">Volver a comprobar</string>
+    <string name="title_exam_many_fragment">Recordamos</string>
+    <string name="title_images_collection_fragment">Colección</string>
+    <string name="title_settings_set_strings_fragment">Ajustes</string>
+    <string name="title_before_answer_fragment">Respondemos</string>
+    <string name="title_exam_fragment">Recordamos</string>
+    <string name="title_result_fragment">Resultado</string>
+    <string name="error">Error</string>
+    <string name="suit_error">Equivocado</string>
+    <string name="card_error">Equivocado</string>
+    <string name="str_continue">Continuar</string>
+    <string name="what_word_was">¿Qué palabra era?</string>
+    <string name="what_number_was">¿Cuál era el número?</string>
+    <string name="to_next_fragment">A continuación</string>
+
+    <string name="prestart_pi_wrong_settings">Error de preparación de memorización. Compruebe que todos los parámetros son correctos.</string>
+
+    <!-- notifications -->
+    <string name="notification_title">@string/mnemonics</string>
+    <string name="notification_message">No has iniciado sesión en la aplicación durante mucho tiempo. ¿Te gustaría entrar y entrenar tu memoria?</string>
+
+    <!--    кнопки меню-->
+    <string name="saveData">Guardar</string>
+
+    <string name="name_of_num">número</string>
+    <string name="name_of_card">naipe</string>
+    <string name="name_of_word">palabra</string>
+    <string name="name_of_figure">figura</string>
+    <!--    <string name="name_of_pi">pi</string>-->
+
+    <string name="continueInterruptedMemorizingTitle">Tu memorización anterior (modo - %1$s) fue interrumpida.</string>
+    <string name="continueInterruptedMemorizingMessage">Si desea continuar, vaya a la categoría correspondiente y comience a memorizar.\n\nO puede comenzar a memorizar nueva memorización.</string>
+    <string name="continueInterruptedMemorizing">Continuar</string>
+    <string name="startNewOneAfterInterruptedMemorizing">Uno nuevo</string>
+
+    <string name="enter_number">Ingrese el número</string>
+    <string name="enter_word">Ingrese una palabra</string>
+    <string name="enter_pi_sign">Ingrese el signo π</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="congrats">¡Felicidades! Gráfico actualizado</string>
+    <string name="reset_deck_to_preset_names">Restablecer a los nombres de las tarjetas originales?</string>
+    <string name="reset_numbers_to_preset_names">Restablecer a los nombres originales de los números?</string>
+    <string name="nums_names_are_reset">Los nombres de los números se han restablecido a los originales.</string>
+    <string name="thanks_for_donation">Gracias por contribuir al desarrollo de la aplicación!</string>
+    <string name="to_check">Comprobar</string>
+    <string name="deck_names">Nombres de tarjetas</string>
+    <string name="images">Imágenes</string>
+    <string name="title_name_of_card">Nombre de tarjeta</string>
+    <string name="save">Guardar</string>
+    <string name="write_answer">respuesta</string>
+    <string name="exercises">Suma los números:</string>
+    <string name="ready">Hecho</string>
+    <string name="reset">Reiniciar</string>
+    <string name="names_of_numbers">Nombres de números</string>
+    <string name="change_this_card_on">Reemplace esta tarjeta con:</string>
+
+    <string name="on_one_number">un número</string>
+    <string name="on_one_card">una tarjeta</string>
+    <string name="on_one_word">una palabra</string>
+    <string name="on_one_figure">una figura</string>
+    <string name="on_one_pi_sign">un signo de π</string>
+
+    <string name="homeFragment">Mnemotécnica</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="memorize">Memorizar</string>
+    <string name="type_it">escribe</string>
+    <string name="lesson">Lección</string>
+    <string name="about_mnemonics">Acerca de los mnemónicos</string>
+    <string name="introduction">Prefacio</string>
+    <string name="mnemonics">Mnemotécnica</string>
+    <string name="basic_techniques">Tecnicas basicas</string>
+    <string name="application">Aplicación</string>
+    <string name="about_method">Sobre el método</string>
+    <string name="сomplicating">Complicado</string>
+    <string name="one_more_time">Y una vez más</string>
+    <string name="fasten">Fijado</string>
+    <string name="preparation_1">Preparación I</string>
+    <string name="lets_try">Empecemos</string>
+    <string name="what_will_be_next">Que sigue</string>
+    <string name="names">nombres</string>
+    <string name="from">desde</string>
+    <string name="till">hasta</string>
+    <string name="reset_statistics">Restablecer estadísticas</string>
+
+    <string name="you_can_find_us">Puedes encontrarnos:</string>
+    <string name="make_mnemonics_translation_better">Puede ayudarnos a mejorar Mnemonics mejorando o creando nuevas traducciones</string>
+
+    <string name="statistics_toast">Resultado:\nFecha: %1$s\nCorrecto: %2$s\nPara 1 objeto: %3$s seg\nCoef.: %4$.2f\nMemorizado: %5$s\nEntrenamiento: %6$s\nEs buen resultado: %7$s</string>
+    <string name="statistics_toast_old">Resultado:\nFecha: %1$s\nCorrecto: %2$s\nPara 1 objeto: %3$s seg\nCoef.: %4$.2f</string>
+    <string name="tv_donut">"¡Estimados usuarios!\n\nGracias por su interés en Mnemonics, deliberadamente sigue siendo gratuito, sin restricciones de funcionalidad ni publicidad de monetización.\n\nEs un proyecto favorito de un pequeño equipo. Así que cualquier ¡La ayuda sería muy útil para un mayor desarrollo de Mnemonics!"</string>
+    <string name="flop">"Intento fallido "</string>
+    <string name="lesson_flop">"¡Falla! Lo lograrás, ¡no te rindas! Relájese y vuelva a intentar la lección. ¡Buena suerte! "</string>
+
+    <string name="toast_choose_lang_first">Primero seleccione su idioma</string>
+
+    <string name="slide_1_title">¡Hola! </string>
+    <string name="slide_1_desc">¡Esta aplicación le enseñará cómo memorizar información de manera efectiva! Mejorarás:</string>
+
+    <string name="slide_2_title">Memorización de números</string>
+    <string name="slide_2_desc">¡Puedes memorizar mucha información numérica!</string>
+
+    <string name="slide_3_title">Memorización de naipes </string>
+    <string name="slide_3_desc">¡Memorizarás rápidamente los naipes!</string>
+
+    <string name="slide_4_title">Memoria, atención e imaginación</string>
+    <string name="slide_4_desc">El entrenamiento aumentará estas habilidades</string>
+
+    <string name="slide_5_title">¡Simplemente hágalo!</string>
+    <string name="slide_5_desc">Entrena duro y tu memoria sorprenderá a todos, incluso a ti, ¡asegúrate!</string>
+
+    <string name="slide_figures_title">Memorizando figuras geométricas</string>
+    <string name="slide_figures_desc">¡Desarrollarás la memoria figurativa!</string>
+
+    <string name="bottom_nav_statistics">@string/statistics</string>
+    <string name="bottom_nav_tutorial">@string/tutorial</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="preference_sign_out_title">Cerrar sesión en su cuenta</string>
+    <string name="preference_sign_in_title">Iniciar sesión en su cuenta</string>
+    <string name="memorization_by_type">Distribución por tipo</string>
+    <string name="is_training_mode">Entrenamiento</string>
+
+    <string name="monday">Lu</string>
+    <string name="tuesday">Ma</string>
+    <string name="wednesday">Mi</string>
+    <string name="thursday">Ju</string>
+    <string name="friday">Vi</string>
+    <string name="saturday">Sá</string>
+    <string name="sunday">Do</string>
+    <string name="streak_title">Serie </string>
+
+    <string name="tutorial_progress_text" formatted="false" translatable="false">Progreso: %1$.0f \%%</string>
+
+    <string name="chip_training_data">preparación</string>
+    <string name="chip_exam_data">examen</string>
+    <string name="all_data">todo</string>
+    <string name="chip_show_failed_attempts">mostrar intentos fallidos</string>
+    <string name="total_memorized_title">Total:</string>
+    <string name="best_result_title">Mejor:</string>
+    <string name="our_partners">Socios</string>
+    <string name="title_partners_fragment_title">Nuestros socios</string>
+    <string name="tvAfricanChildrensFundDescription"> Nuestro trabajo con socios de base en Kenia, Tanzania, Uganda y Zimbabwe en educación y derechos del niño está marcando una diferencia real en las vidas de 2.500 niños que nacen en la pobreza cada año. Ayudar a los niños a salir de las calles y a la escuela les brinda la oportunidad de mejorar sus vidas y construir un futuro mejor. </string>
+    <string name="tvChildrenIncorporatedDescription"> Somos una organización internacional sin fines de lucro que apoya a los niños que viven en la pobreza a través de dos enfoques principales: patrocinio infantil y fondos especiales. Nos asociamos con casi 300 proyectos en 21 países de todo el mundo para proporcionar a los niños pobres las necesidades básicas para que puedan asistir a la escuela, recibir una educación y tener la oportunidad de triunfar. </string>
+
+    <string name="result_info_right">Correcto:</string>
+    <string name="result_info_from">de</string>
+    <string name="result_info_for">en</string>
+    <string name="result_info_sec">seg</string>
+    <string name="result_info_on_1_spent">Gastados en %1$s:</string>
+    <string name="result_info_second">seg</string>
+    <string name="result_info_memo_index">Índice de memorización:</string>
+
+    <string name="chip_numbers">números</string>
+    <string name="chip_cards">naipes</string>
+    <string name="chip_words">palabras</string>
+    <string name="chip_figures">figuras</string>
+    <string name="chip_pi">π dígitos</string>
+
+    <string name="mnemonics_application_name">Mnemotécnica</string>
+
+    <string name="statistics_empty_data">Datos no disponibles. Realice la formación o el examen adecuados para que aparezcan los análisis. </string>
+    <string name="title_cards_in_deck">Baraja de</string>
+    <string name="deck_36_cards">36 naipes</string>
+    <string name="deck_52_cards">52 naipes</string>
+
+    <string name="chart_value_selected_out_of">de</string> <!-- Слова: 1 ИЗ 5-->
+
+    <string name="method_of_loci">El método de loci</string>
+    <string name="matreshka">Matryoshka</string>
+    <string name="chain">Método de enlace</string>
+    <string name="numbers_remembering_lessons_title">Memorizando números I</string>
+    <string name="numbers_remembering_lessons_title2">Memorizando números II</string>
+    <string name="matreshka_method_n">Memoriza %1$d palabras con el método Matryoshka</string>
+    <string name="memory_palace_method_n">Memoriza %1$d palabras con el método de loci</string>
+    <string name="chain_method_n">Memoriza %1$d palabras con el método de enlace</string>
+    <string name="remember_n_numbers">Memoriza %1$d números</string>
+    <string name="update_downloaded">Se acaba de descargar una actualización.</string>
+    <string name="update_upload_failed">La actualización de la aplicación falló. Vuelva a intentarlo en el próximo lanzamiento de la aplicación.</string>
+    <string name="how_to_do_it">¿Cómo recordar números?</string>
+    <string name="from_0_to_10">Memorizar números en el rango de 0 a 10</string>
+    <string name="cards_names_are_reset">Los nombres de las tarjetas se restablecen al origen</string>
+    <string name="repeat_all">Repite todo</string>
+    <string name="from_10_to_20">Números de entrenamiento en el rango de 10 a 20</string>
+    <string name="from_20_to_30">Números de entrenamiento en el rango de 20 a 30</string>
+    <string name="from_30_to_40">Números en el rango 30 – 40</string>
+    <string name="repeat_from_20_to_40">Repite los números del 20 al 40</string>
+    <string name="from_40_to_50">Números de entrenamiento en el rango de 40 a 50</string>
+    <string name="from_50_to_60">Memorización de números en el rango 50 – 60</string>
+    <string name="repeat_from_40_to_60">Repite los números del 40 al 60</string>
+    <string name="repeat_from_0_to_60">Repite los números del 0 al 60</string>
+    <string name="from_60_to_70">Memorización de números en el rango de 60 a 70</string>
+    <string name="from_70_to_80">Números de entrenamiento en el rango de 70 a 80</string>
+    <string name="repeat_from_60_to_80">Repite los números del 60 al 80</string>
+    <string name="repeat_from_0_to_80">Repetir 0 – 80</string>
+    <string name="from_80_to_90">Memorización de números en el rango 80 – 90</string>
+    <string name="from_90_to_100">Números de entrenamiento en el rango de 90 a 100</string>
+    <string name="repeat_from_80_to_100">Repetir 80–100</string>
+    <string name="repeat_from_0_to_100">¡Repetición final de 0 a 100!</string>
+
+    <string name="how_many_pi_digits_in_one_item">Dígitos π en una celda</string>
+    <string name="from_what_position_to_memorize">Desde qué posición memorizar</string>
+
+    <string name="bad_input_of_signs_in_one_Item">Entrada incorrecta. Debe estar en el rango de 1 a 6</string>
+    <string name="bad_input_of_starting_pi_position_memorizing">No puede estar vacía</string>
+
+    <!--Содержание уроков-->
+    <string name="lesson_intro_0">
+        <![CDATA[
+            <h3><span id="Requisitos_previos_para_la_apariencia" class="mw-headline">Requisitos previos para la apariencia</span></h3>
+            <p>El arte de la memorización fue especialmente importante en los períodos anteriores a la alfabetización de la historia humana. Entonces, sacerdotes, chamanes, narradores tenían que memorizar grandes cantidades de información. Incluso después del advenimiento de la escritura, el arte de la memorización no ha perdido su relevancia. Una cantidad muy pequeña de libros, el alto costo de los materiales de escritura, una gran masa y volumen del libro escrito &nbsp;&mdash; todo esto me animó a memorizar el texto. También influyó el largo tiempo que se pasaba en la carretera durante los viajes, cuando era imposible leer y escribir y había que utilizar lo que había en la memoria.</p>
+            <h3><span id="Primeros_textos" class="mw-headline">Primeros textos</span></h3>
+            <p>Los primeros textos conocidos sobre mnemotecnia fueron creados por los antiguos griegos. El arte de la memorización también fue desarrollado por los monjes medievales, que necesitaban recordar una gran cantidad de textos litúrgicos. Durante el Renacimiento, cuando se llegó a considerar el conocimiento como poder (Francis Bacon: El conocimiento en sí mismo es poder), la capacidad de tener en cuenta el conocimiento también fue muy, muy valorada. Por ejemplo, Giordano Bruno escribió libros sobre mnemotecnia. En su testimonio ante el Tribunal de la Inquisición, informa que publicó en Francia un libro sobre la memoria titulado "Sobre las sombras de las ideas". Teniendo en cuenta que Bruno invitó al rey Enrique III (rey de Francia) a su lugar, queriendo saber &nbsp;&mdash; De dónde obtuvo tanto conocimiento, se debe suponer que Bruno estaba bien versado en el arte de la memorización.</p>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_1">
+        <![CDATA[
+            <h2>La mnemotecnia</h2>
+            <p>La <strong>mnemotecnia</strong> o <strong>nemotecnia</strong> ― conocida también por los latinismos «ars memoriae» o «ars memorativa»― es un conjunto de técnicas de memorización y rememoración basada en la asociación mental de la información a memorizar con datos que ya sean parte de la memoria o de la práctica cotidiana. Esta técnica aprovecha la capacidad natural que tiene el cerebro para recordar imágenes y para prestarle más atención a los sucesos poco comunes o extraordinarios. Sin embargo, a veces, por la represión en lo inconsciente típica en lapsus memoriae, se produce un olvido de palabras que hasta pueden ser palabras muy frecuentes y comunes. El conjunto sintomático de tales olvidos de palabras fue denominado letológica por Carl Gustav Jung. </p>
+            <p>Si se quisiera aprender a memorizar de manera nemotécnica habría primero que aprender las reglas con las que juega el cerebro. Así como las computadoras solo almacenan información en dígitos binarios, la memoria nemotécnica solo puede almacenar imágenes asociadas de maneras extravagantes a algo que ya se conoce. Continuando con la analogía, toda la información que se introduce en un ordenador, antes de ser almacenada es llevada a código binario; luego, al ser necesitada es decodificada nuevamente y se muestra en la pantalla. De manera similar, para memorizar algo con técnicas nemotécnicas, primero hay que convertir los datos en imágenes para luego asociarlas o guardarlas en partes de la memoria que ya se conocen. Luego, cuando se necesite recordar, se partirá del lugar donde se dejó la asociación, se recordará la asociación hecha y la imagen que representa el dato buscado, se decodificará y se habrá recordado lo que se buscaba.</p>
+            <p>El potencial y utilidad de este método reside en que se vale de la forma natural en que funciona la mente, pues siempre se asocia de manera inconsciente la memoria; un recuerdo lleva a otro y ese a otro (este es el mismo concepto detrás de los mapas mentales), solo que con la nemotecnia se hará de manera consciente. La mayor parte del trabajo la realiza el subconsciente; si la asociación se hizo correctamente se puede liberar de la mente consciente; no se necesita repasarla mentalmente (no inmediatamente), pues ya fue memorizada. Además, con el uso de los datos memorizados, pronto no se necesita recordar las asociaciones de las que se valió para memorizar, porque ya serán parte del acervo de conocimientos.</p>
+            <p>La mnemotecnia le permite recordar información de una sola percepción de cada elemento. Por ejemplo, se pueden recordar 100 palabras (números) al azar de forma secuencial con un intervalo promedio de 6 segundos.</p>
+            <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Ejemplo</a>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_2">
+        <![CDATA[
+            <h2>El principal método de memorización en la mnemotecnia moderna. </h2>
+            <p>La memorización en mnemotécnica se basa en la propiedad de la memoria de recordar muy rápidamente la conexión entre imágenes percibidas simultáneamente (o, lo que es lo mismo, la conexión entre imágenes creadas en la imaginación).</p>
+            <p>El sistema ilustrado de códigos figurativos es uno de los principales métodos de memorización, junto con el &ldquo; método de choque &rdquo; - el método de formar una asociación artificial (la conexión de varias imágenes con partes de una imagen).</p>
+            <p>El volumen de memorización con la ayuda de mnemónicos está limitado por una velocidad de memorización bastante baja (en promedio 6 segundos por registro en la memoria de una conexión). La memorización mnemotécnica es similar a las notas figurativas: lo más importante también se recuerda en forma de imágenes visuales.</p>
+            <p>Cuando se almacenan grandes cantidades de información de una forma u otra, se utiliza un proceso mnemónico mental y un método para recordar agrupaciones, que incluyen: dividir la matriz en fragmentos conocidos y desconocidos para los humanos; combinar los elementos de cada fragmento desconocido en un único objeto de memoria integral; vincular todos los fragmentos conocidos y combinados de la matriz en un todo; repetición de acciones para descomponer, combinar y vincular al resultado final en la forma de un conjunto de objetos de memoria conectados asociativamente, lo que proporciona un acceso fácil y conveniente a la memoria del contenido de la matriz de información original en su conjunto.</p
+            <p>En la interpretación moderna, <strong>mnemotécnica</strong> significa el conjunto completo de técnicas y métodos de recordar información utilizados en un sistema en particular, y el término <strong>mnemotécnica</strong> se interpreta como una aplicación práctica de los métodos definidos en esta mnemotécnica en particular. </p>
+            <a href="https://www.youtube.com/watch?v=Jwt6KlgkJlU">Ejemplo</a>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_3">
+        <![CDATA[
+            <h2>Acerca de Memo</h2>
+            <h2>¿Para qué?</h2>
+            <ul>
+            <li>Esta aplicación le ayudará a aprender a memorizar rápidamente grandes cantidades de información <strong>numérica</numerica>.</li>
+            <li>Aprenda a recordar una <strong>baraja de cartas</strong>.</li>
+            <li><strong>Mejora</strong> su capacidad de <strong>concentración</strong> (capacidad de trabajo) y <strong>habilidades de memoria</strong>.</li>
+            </ul>
+            <h3>Los mnemonistas profesionales pueden recordar:</h3>
+            <ul>
+            <li>más de 70 números por minuto (principiantes que dominan la mnemotecnia - ¡20 números en 2 minutos!)</li>
+            <li>una baraja de cartas en menos de 30 segundos</li>
+            <li>más de 100.000 dígitos de Pi</li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <p>Recordando números </p>
+            <a href="https://www.youtube.com/embed/IK1T4EZNqLg">Ejemplo de recordar números</a>
+            <p>Recordando naipes</p>
+            <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Ejemplo de recordar tarjetas</a>
+            <h2>¿Qué puedes aprender?</h2>
+            <p>Paso a paso, dominas las principales técnicas de mnemotécnica y obtienes la habilidad de memorizar mucha información en tu vida. ¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_0">
+        <![CDATA[
+            <h2>Sistema de enlace mnemónico | Método de cadena</h2>
+            <p>A <strong>mnemonic link system</strong>, sometimes also known as a <strong>chain method</strong>, is a method of remembering lists that is based on creating an association between the elements of that list. For example, when memorizing the list (dog, envelope, thirteen, yarn, window), one could create a story about a "dog stuck in an envelope, mailed to an unlucky thirteen primaryTextColor cat playing with yarn by the window". It is argued that the story would be easier to remember than the list itself.</p>
+            <p>Un <strong>sistema de enlace mnemónico</strong>, a veces también conocido como <strong>método de cadena</strong>, es un método para recordar listas que se basa en la creación de una asociación entre los elementos de esa lista. Por ejemplo, al memorizar la lista (perro, sobre, trece, hilo, ventana), se podría crear una historia sobre la lista. Se argumenta que la historia sería más fácil de recordar que la lista misma. </p>
+            <p>Otro método consiste en vincular cada elemento de la lista con una imagen mental de una imagen que incluye dos elementos en la lista que están uno al lado del otro. Esto formaría una lista abierta doblemente enlazada que podría recorrerse a voluntad, hacia atrás o hacia adelante. Por ejemplo, en la última lista uno podría imaginarse a su perro dentro de un sobre gigante, luego a un gato comiéndose un sobre. La misma lógica se usaría con el resto de los ítems. La observación de que las imágenes absurdas son más fáciles de recordar se conoce como efecto Von Restorff, aunque el éxito de este efecto fue refutado por varios estudios (Hock et al. 1978; Einstein 1987), que encontraron que la conexión establecida entre las dos palabras es más importante que el absurdo de la imagen.</p>
+            <p>Para acceder a un determinado elemento de la lista, es necesario recitar la lista paso a paso, en la misma línea que una lista vinculada, para obtener el elemento del sistema.</p>
+            <p>Hay tres limitaciones para el sistema de enlace. La primera es que no se impone un orden numérico al memorizar, por lo que el practicante no puede determinar inmediatamente la posición numérica de un elemento; esto se puede resolver agrupando marcadores numéricos en puntos de ajuste en la cadena o usando el sistema de clavijas en su lugar. La segunda es que si se olvida alguno de los elementos, la lista completa puede estar en peligro. El tercero es la posibilidad de confundir segmentos repetidos de la lista, un problema común al memorizar dígitos binarios. Esta limitación se puede resolver mediante agrupación o mediante el sistema de vinculación o el método de loci.</p>
+            <a href="https://www.youtube.com/watch?v=0USgOB4SQwg">Ejemplo</a>
+
+            <p>Pruebe el ejercicio memorizando 10 palabras con este método. </p>
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_1">
+        <![CDATA[
+            <h2>Sistema de enlace mnemónico | Método de cadena</h2>
+
+            <a href="https://www.youtube.com/watch?v=a9LGhSneZlM">Otra explicacion</a>
+
+            <p>¡Cuanto más brillante e imaginativo sea para representar las imágenes, mejor será el resultado! No se olvide:</p>
+            <ul>
+            <li>distinguir claramente la primera y segunda imagen de la pareja</li>
+            <li>para crear uniformidad en la memorización de imágenes: coloque la segunda imagen encima de la primera, en el lado derecho de la primera o dentro de la primera</li>
+            <li>las imágenes en pares deben tener aproximadamente el mismo tamaño</li>
+            <li>no imagine imágenes por separado, sino intente crear contacto entre ellas.</li>
+            </ul>
+            <p>Pruebe el ejercicio memorizando 15 palabras con este método.</p>
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_2">
+        <![CDATA[
+            <h2>Sistema de enlace mnemónico | Método de cadena</h2>
+            <p>¿Lo hizo? ¡Felicidades!</p>
+            <p>No se olvide de la regularidad del entrenamiento: es mejor entrenar 1 vez media hora al día que 1 vez a la semana, pero durante 4 horas.</p>
+            <p>¡Cuanto más brillante e imaginativo sea para representar las imágenes, mejor será el resultado! No se olvide:</p>
+            <ul>
+            <li>distinguir claramente la primera y segunda imagen de la pareja</li>
+            <li>para crear uniformidad en la memorización de imágenes: coloque la segunda imagen encima de la primera, en el lado derecho de la primera o dentro de la primera</li>
+            <li>las imágenes en pares deben tener aproximadamente el mismo tamaño</li>
+            <li>no imagine imágenes por separado, sino intente crear contacto entre ellas.</li>
+            </ul>
+            <p>Pruebe el ejercicio memorizando 20 palabras con este método.</p>
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_matreshka_0">
+        <![CDATA[
+            <h2>Método de la "muñeca rusa"</h2>
+            <p>A diferencia del método Chain (de cadene o systema de enlance mnemónico) en este método, en cada par, la primera imagen es grande y la segunda es pequeña. Como las imágenes pequeñas se recuerdan mal, recurren a lo siguiente: Conectemos dos imágenes: una imagen y una silla. Imagina una imagen que conoces bien. Imagina una silla cerca. Ahora "enciende" en la imaginación la aproximación de la imagen. Agrande la imagen para que en su conciencia solo haya, digamos, la firma del artista en la esquina inferior derecha. Debe ser del tamaño de una manzana. No es necesario aumentar una silla. Ahora combine las dos imágenes: la firma del artista y la silla. Bloquea este enlace en unos segundos. Si ahora imagina la imagen, entonces la silla resultará muy pequeña. En eso y en el punto principal de la recepción "Matryoshka" radica. Al memorizar este truco, las imágenes aumentan y disminuyen constantemente. Además de recordar imágenes recordadas por esta técnica.</p>
+            <p>Para obtener una descripción más detallada del método, puede ver el video:</p>
+
+            <a href="https://www.youtube.com/embed/UFH6nFLXbJc">Explicacion (en Inglés)</a>
+
+            <p>Pruebe el ejercicio memorizando 10 palabras con este método. </p>
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+
+    <string name="lesson_matreshka_1">
+        <![CDATA[
+            <h2>Método de la "muñeca rusa"</h2>
+
+            <p>Seguimos entrenando la memoria. Trate de representar las imágenes de la manera más brillante posible y siga las recomendaciones que se le dieron. Siempre será un gran ejercicio para la imaginación y el pensamiento imaginativo.</p>
+
+            <p>Pruebe el ejercicio memorizando 15 palabras con este método.</p>
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+         ]]>
+    </string>
+
+    <string name="lesson_matreshka_2">
+        <![CDATA[
+            <h2>Método de la "muñeca rusa"</h2>
+
+            <p>Intentaremos consolidar el resultado. Ahora intente completar el ejercicio recordando <strong> 20 </strong> palabras con este método.</p>
+
+            <p>Necesita obtener más del <strong>90%</strong> de las respuestas correctas y lograr menos de <strong>12</strong> segundos de memorización por palabra.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_0">
+        <![CDATA[
+            <h2> Método de loci | Método Cicerón </h2>
+            <p> El <strong> método de loci </strong> (<em> loci </em> significa "lugares" en latín) es una estrategia de mejora de la memoria que utiliza visualizaciones de entornos espaciales familiares para mejorar el recuerdo de información. El método de los loci también se conoce como <strong> viaje de la memoria </strong>, <strong> palacio de la memoria </strong> o <strong> método de Cicerón </strong>, o <strong> técnica del palacio de la mente </ strong >. Este método es un recurso mnemónico adoptado en los tratados retóricos romanos y griegos antiguos (en el anónimo <em> Rhetorica ad Herennium </em>, el <em> De Oratore </em> de Cicerón y el <em de Quintilian \' > Institutio Oratoria </em>). Muchos campeones de concursos de memoria informan que utilizan esta técnica para recordar caras, dígitos y listas de palabras. </p>
+            <p> El término se encuentra con mayor frecuencia en trabajos especializados sobre psicología, neurobiología y memoria, aunque se usó de la misma manera general al menos ya en la primera mitad del siglo XIX en trabajos sobre retórica, lógica y filosofía. . John O \' Keefe y Lynn Nadel se refieren a: </p>
+
+            <blockquote>
+            <p>\'el método de los loci \', una técnica imaginal conocida por los antiguos griegos y romanos y descrita por Yates (1966) en su libro <em> El arte de la memoria </em> así como por Luria (1969 ). En esta técnica, el sujeto memoriza el diseño de algún edificio, o la disposición de las tiendas en una calle, o cualquier entidad geográfica que se componga de varios loci discretos. Cuando desea recordar un conjunto de elementos, el sujeto "camina" a través de estos lugares en su imaginación y asigna un elemento a cada uno formando una imagen entre el elemento y cualquier característica de ese lugar. La recuperación de elementos se logra \' caminando \' a través de los loci, permitiendo que este último active los elementos deseados. La eficacia de esta técnica ha sido bien establecida (Ross y Lawrence 1968, Crovitz 1969, 1971, Briggs, Hawkins y Crovitz 1970, Lea 1975), al igual que la mínima interferencia observada con su uso.</p>
+            </blockquote>
+
+            <p> Los elementos que se recordarán en este sistema mnemónico están asociados mentalmente con ubicaciones físicas específicas. El método se basa en relaciones espaciales memorizadas para establecer el orden y recordar el contenido conmemorativo. También se conoce como el "Método de viaje", que se utiliza para almacenar listas de elementos relacionados, o la técnica "Sala romana", que es más eficaz para almacenar información no relacionada. </p>
+
+            <p> Antes de aplicar este método, debe decidir por sí mismo qué <strong> secuencia de caminar por la habitación </strong> seguirá. En otras palabras, necesitas determinar la secuencia de lugares donde publicarás tu información, es decir, <strong> preparar </strong> una lista de lugares de referencia. Muchos simplemente tendrán que tenerlo en la cabeza. </p>
+
+            <p> Si esto es difícil, entonces, recordando la secuencia de elementos por el método Cicero por primera vez, puede intentar caminar por la habitación realmente, como él, mientras organiza los elementos mentalmente. En otros casos, pasear por la casa, como hizo Cicerón, no es necesario: basta con imaginarla mentalmente (la habitación, por supuesto, debe ser muy familiar). Sin embargo, puede ser cualquier ubicación conocida. </p>
+
+            <p> El método Cicero se basa en asociaciones naturales, es decir, en las conexiones que se formaron en el cerebro de forma natural con la percepción regular de imágenes visuales que tienen interconexiones. Cada persona ve regularmente las mismas imágenes visuales. Estos son objetos en un apartamento, oficina. Estos son objetos en la calle por los que suele caminar. Dado que las conexiones entre los objetos percibidos regularmente ya existen en su cerebro, estas conexiones no necesitan ser recordadas. Los recuerdas de todos modos. Para la formación de imágenes de apoyo mediante el método Cicero, solo se debe fijar bien en la memoria la secuencia de imágenes que le son familiares. Esto se hace recordándolos repetidamente. </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_1">
+        <![CDATA[
+            <h2>Selección de imágenes de apoyo mediante el método Cicero | Método de loci</h2>
+            <p>Ejemplo. Defina la secuencia de habitaciones en su casa o apartamento, oficina o sus amigos y rsquo; casas. Por ejemplo, memorice siempre las habitaciones en el siguiente orden: pasillo, baño, cocina, cuarto pequeño y comedor.</p>
+            <p>Concentre su atención en una habitación en particular. Dime, tu pasillo. Camine por el pasillo con su imaginación (siempre en la misma dirección, en el sentido de las agujas del reloj) y recuerde 10 objetos diferentes.</p>
+            <p>Haz lo mismo con otras habitaciones de tu apartamento. Destaca 10 imágenes en el baño, en la cocina, la sala pequeña y el comedor.</p>
+            <p>Como resultado, tendrá 50 imágenes. Primero, recuerda 10 imágenes en el pasillo, luego, 10 imágenes en la cocina, y así sucesivamente.</p>
+            <p>Fije las 50 imágenes y su orden en su memoria usando múltiples RECORDAR.</p>
+            <p>¡Esto es importante!</p>
+            <p>Las imágenes seleccionadas NO DEBEN REPETIRSE. Solo se pueden repetir los nombres de los objetos. Destaque las imágenes recordándolas. <br> Necesitas extraer las conexiones que ya están presentes en el cerebro. Elija las imágenes que luego le permitirían seleccionar 5 imágenes más de ellas.</p>
+            <p>El método Cicero se utiliza para formar un sistema de imágenes de apoyo (estimulantes). El sistema de imágenes de soporte se forma mediante una combinación de diferentes técnicas de memorización de secuencias. Las imágenes seleccionadas con el método Cicero suelen ser imágenes de PRIMER NIVEL en el sistema de imágenes de apoyo. Si trazamos paralelos con una computadora, son un directorio padre o un catálogo raíz, a través del cual se llega a otras imágenes de soporte.</p>
+            <a href="https://www.youtube.com/watch?v=eoOCQtHGmyc">Ejemplo</a>
+            <p>La tarea para usted es <strong>preparar</strong>, para comenzar, <strong>10</strong> imágenes de apoyo. En el futuro, este número aumentará.</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_2">
+        <![CDATA[
+            <h2>Comienzo </h2>
+            <p>Para casi todos los mnemonistas, el método de la sala romana es fundamental. Por lo tanto, no seas perezoso, esto es una reserva para el futuro.</p>
+            <a href="https://www.youtube.com/watch?v=dUJojedmurE">Otra explicacion</a>
+            <p>Para empezar: <strong>prepara</strong> 10 imágenes de referencia según el método de la sala romana. Estos deben ser objetos / ubicaciones de un área que usted conozca (su apartamento, oficina, camino a la tienda, etc.). Debe seleccionar estas imágenes en un orden determinado, al que se adherirá en el futuro.</p>
+            <p>Después de preparar 10 imágenes de referencia, continúe con el ejercicio. </p>
+            <p>Será necesario recordar <strong> 10 palabras </strong> utilizando el método Cicero \ sala Roman. Para esto: </p>
+            <ul>
+            <li style="text-align: left;">visualizar cada palabra claramente</li>
+            <li style="text-align: left;">conecta la palabra con la imagen de referencia, sin olvidar:</li>
+            <ul>
+            <li>distinguir claramente la primera y segunda imagen de la pareja</li>
+            <li>para crear uniformidad en la memorización de imágenes: coloque la segunda imagen encima de la primera, en el lado derecho de la primera o dentro de la primera</li>
+            <li>las imágenes en pares deben tener aproximadamente el mismo tamaño</li>
+            <li>no imagines imágenes por separado, sino intenta crear contacto entre ellas</li>
+            </ul>
+            </li>
+            </ul>
+            <p>Al "recordar" imágenes, recorra mentalmente el mismo camino, "buscando" cuidadosamente en la imaginación las imágenes de apoyo con las que recordará palabras memorizadas.</p>
+            <p>Una y otra vez lo harás cada vez más rápido, perfeccionando esta habilidad.</p>
+            <p>¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_3">
+        <![CDATA[
+            <h2> Complicado </h2>
+            <p> ¡Felicitaciones! Estás en el camino correcto. </p>
+            <p> Para completar más tareas, debe preparar otras <strong> 10 imágenes de referencia </strong> y llevar el número total a <strong> 20 </strong>. </p>
+            <p> Después de esto, continúe con la tarea. Pruebe el ejercicio recordando <strong> 15 </strong> palabras con este método. </p>
+            <p> Debe obtener más del <strong> 90% </strong> de respuestas correctas y lograr menos de <strong> 12 </strong> segundos de memorización por palabra. </p>
+            <p> ¡Buena suerte! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_4">
+        <![CDATA[
+            <h2> Fijar </h2>
+            <p> ¡Felicitaciones! Has hecho un progreso tremendo. ¡No te detengas ahí! </p>
+            <p> Intente consolidar sus habilidades y complete el ejercicio recordando <strong> 20 </strong> palabras con este método. </p>
+            <p> Debe obtener más del <strong> 90% </strong> de respuestas correctas y lograr menos de <strong> 12 </strong> segundos de memorización por palabra. </p>
+            <p> ¡Buena suerte! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_5">
+        <![CDATA[
+            <h2> ¿Qué sigue? </h2>
+            <p> ¡Felicitaciones! Bueno, ¿cómo reconoce el hecho de que ha logrado un progreso tremendo, desarrollado la memoria y la imaginación? Este es solo el comienzo. Además, estudiaremos los mnemónicos para la memorización: </p>
+            <ul>
+            <li> información numérica </li>
+            <li> tarjetas </li>
+            </ul>
+            <p> Una lista de estas lecciones aparecerá en futuras actualizaciones. Mientras tanto, están en camino: amplíe la cantidad de imágenes de apoyo y llévelas al número que necesita. Utilice las habilidades adquiridas en el <em> modo de memorización de palabras </em>. </p>
+            <p> ¡Buena suerte! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_0">
+        <![CDATA[
+            <h2> ¿Cómo recuerdan los nemonistas los números? </h2>
+            <h2> &Prime; Código alfanumérico &Prime; </h2>
+            <p> El cerebro humano puede memorizar y operar fácilmente con objetos específicos memorizados (bolígrafo en su mesa, manzana, mesa, almohada), pero no puede hacer lo mismo con los números. Para eliminar esto, se inventó un código alfanumérico, que establece la correspondencia de las letras consonantes del alfabeto ruso con los números. Un número corresponde a dos letras consonantes, VOICES - para unir consonantes: </p>
+            <ul>
+            <li>0 - R;</li>
+            <li>1 - T,D;</li>
+            <li>2 - N,Ñ;</li>
+            <li>3 - M;</li>
+            <li>4 - C;</li>
+            <li>5 - L;</li>
+            <li>6 - S,Z;</li>
+            <li>7 - F;</li>
+            <li>8 - Ch, G, J;</li>
+            <li>9 - B,V,P.</li>
+            </ul>
+            <p> Memorizar algunas letras por número está hecho para una mayor variabilidad al crear imágenes y palabras. </p>
+
+            <p>Y aquí es mnemónico para recordar:<br>
+
+            <br>• 0 = Ya que la palabra cero contiene esta letra.
+            <br>• 1 = Por similitud gráfica.
+            <br>• 2 = Porque la “n” tiene dos “patas”
+            <br>• 3 = Porque tiene tres “patas”
+            <br>• 4 = Porque la palabra “cuatro” comienza por “c”
+            <br>• 5 = Ya que la “L” en números romanos simboliza la cantidad de 50
+            <br>• 6 = Porque la palabra “seis” comienza por “s”
+            <br>• 7 = Por similitud gráfica
+            <br>• 8 = Ya que la palabra “ocho” contiene este conjunto
+            <br>• 9 = Ya que la palabra “nueve” contiene este sonido
+
+            <p>Por ejemplo, para memorizar el 69, deberíamos usar sonidos 6 = [S,Z] y 9 = [ B, V, P] y descifrar la palabra. Y obtenemos la imagen de palabra para memorizar - <i>SaPo<i>.</p>
+            <p> ¡Haga clic en la estrella cuando aprenda su lección! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_1">
+        <![CDATA[
+            <h2> ¡Empezamos a memorizar los números del 0 al 10! </h2>
+            <p> Una vez que haya comprendido el núcleo de la lección anterior, estará listo para memorizar números. </p>
+            <p> Es necesario recordar los nombres de los números del 0 al 10. </p>
+            <p> 0 - aRo <br /> 1 - Té <br /> 2 - aNo <br /> 3 - Moho <br /> 4 - K.o. <br /> 5 - aLa <br /> 6 - oSo <br /> 7 - e.F.e. <br /> 8 - CHé <br /> 9 - Búho </p>
+            <p> Puede <strong> <em> configurar </em> </strong> códigos figurativos usted mismo, utilizando el sistema o imágenes preparadas. </p>
+            <p> Para <strong> <em> cambiar </em> </strong> las imágenes, haga clic en <strong> Nombres </strong>. </p>
+            <p> Para una mejor visualización, puede <strong> <em> ver </em> </strong> imágenes: el botón <strong> Imágenes </strong>. </p>
+            <p> Imagina vívidamente las imágenes. Juega con ellos en tu imaginación. Hazlos coloridos, grandes y detallados. </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_2">
+        <![CDATA[
+            <h2>Memorize numbers from 10 to 20!</h2>
+            <p>Names of numbers from 10 to 20:</p>
+            <p>10 - Daisy<br />11 - Tattoo<br />12 - Tuna<br />13 - Dome<br />14 - Tire<br />15 - Doll<br />16 - Dish<br />17 - Duck<br />18 - Dove<br />19 - Tape</p>
+            <p>Vividly imagine the images. Play with them in your imagination. Make them colorful, large, detailed.</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>You will succeed!</p>
+
+            <h2> ¡Memorice números del 10 al 20! </h2>
+            <p> Nombres de números del 10 al 20: </p>
+            <p> 10 - ToRo <br /> 11 - TeTa <br /> 12 - DuNa <br /> 13 - DaMa <br /> 14 - TaCo <br /> 15 - TeLa <br /> 16 - TaZa <br /> 17 - TuFo <br /> 18 - DaGa <br /> 19 - TaPa </p>
+            <p> Imagina vívidamente las imágenes. Juega con ellos en tu imaginación. Hazlos coloridos, grandes y detallados. </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_3">
+        <![CDATA[
+            <h2> ¡Repite los números del 0 al 20! </h2>
+            <p> ¡Hurra! Recuerdas 20 códigos figurativos. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_4">
+        <![CDATA[
+            <h2> ¡Memorice números del 20 al 30! </h2>
+            <p> Nombres de números del 20 al 30: </p>
+            <p> 20 - NoRia <br /> 21 - NaTa <br /> 22 - NaNa <br /> 23 - NoMo <br /> 24 - NuCa <br /> 25 - NiLo <br /> 26 - N.a.S.a. <br /> 27 - aNaFe <br /> 28 - NaCHo <br /> 29 - NaVe </p>
+            <p> Imagina vívidamente las imágenes. Juega con ellos en tu imaginación. Hazlos coloridos, grandes y detallados. </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_5">
+        <![CDATA[
+            <h2> ¡Memorice números del 30 al 40! </h2>
+            <p> Nombres de números del 30 al 40: </p>
+            <p> 30 - MaR <br /> 31 - MaTi <br /> 32 - MaNo <br /> 33 - MaMá <br /> 34 - MoCo <br /> 35 - MiLi <br /> 36 - MeSa <br /> 37 - MaFia <br /> 38 - MeCHa <br /> 39 - MaPa </p>
+            <p> Después de memorizar 10 imágenes, haga clic en la estrella e intente recordar 10 números utilizando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_6">
+        <![CDATA[
+            <h2> ¡Repite los números del 20 al 40! </h2>
+            <p> ¡Hurra! Recuerda 20 códigos figurativos más. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_7">
+        <![CDATA[
+            <h2> ¡Números del 0 al 40! </h2>
+            <p> ¡Hurra! Recuerdas 40 códigos figurativos. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_8">
+        <![CDATA[
+            <h2> ¡Memorice números del 40 al 50! </h2>
+            <p> Nombres de números del 40 al 50: </p>
+            <p> 40 - CuRa <br /> 41 - CoDo <br /> 42 - CuNa <br /> 43 - CaMa <br /> 44 - CaCa <br /> 45 - CeLo <br /> 46 - QueSo <br /> 47 - CaFé <br /> 48 - QuiCHe <br /> 49 - CaPa </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_9">
+        <![CDATA[
+            <h2> ¡Memorice números del 50 al 60! </h2>
+            <p> Nombres de números: </p>
+            <p> 50 - LoRo <br /> 51 - LaTa <br /> 52 - LaNa <br /> 53 - LiMa <br /> 54 - LaCa <br /> 55 - LoLa <br /> 56 - LoSa <br /> 57 - aLiFa <br /> 58 - LeCHe <br /> 59 - LaPa </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_10">
+        <![CDATA[
+            <h2> ¡Repita los números del 40 al 60! </h2>
+            <p> ¡Hurra! Recuerda 20 códigos figurativos más. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_11">
+        <![CDATA[
+            <h2> ¡Números del 0 al 60! </h2>
+            <p> ¡Hurra! Recuerdas 60 códigos figurativos. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_12">
+        <![CDATA[
+            <h2> ¡Memorice números del 60 al 70! </h2>
+            <p> Nombres de números: </p>
+            <p> 60 - SáhaRa <br /> 61 - SeTa <br /> 62 - SauNa <br /> 63 - ZuMo <br /> 64 - SaCo <br /> 65 - SoL <br /> 66 - SoS <br /> 67 - SoFá <br /> 68 - SoGa <br /> 69 - SaPo </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_13">
+        <![CDATA[
+            <h2> ¡Memorice números del 70 al 80! </h2>
+            <p> Nombres de números: </p>
+            <p> 70 - FaRo <br /> 71 - FoTo <br /> 72 - FaNi <br /> 73 - FaMa <br /> 74 - FoCa <br /> 75 - FiLa <br /> 76 - FoSa <br /> 77 - F.i.F.a. <br /> 78 - FiCHa <br /> 79 - FaBio </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_14">
+        <![CDATA[
+            <h2> ¡Repite los números del 60 al 80! </h2>
+            <p> ¡Hurra! Recuerda 20 códigos figurativos más. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_15">
+        <![CDATA[
+            <h2> ¡Números del 0 al 80! </h2>
+            <p> ¡Hurra! Recuerda 80 códigos figurativos. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_16">
+        <![CDATA[
+            <h2> ¡Memorice números del 80 al 90! </h2>
+            <p> Nombres de números: </p>
+            <p> 80 - GuRú <br /> 81 - GaTa <br /> 82 - GeNio <br /> 83 - GoMa <br /> 84 - JaQue <br /> 85 - JauLa <br /> 86 - GaSa <br /> 87 - JeFe <br /> 88 - GoGó <br /> 89 - CHaPa </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_17">
+        <![CDATA[
+            <h2> ¡Memorice números del 90 al 100! </h2>
+            <p> Nombres de números: </p>
+            <p> 90 - BaR <br /> 91 - BoTa <br /> 92 - PaNa <br /> 93 - PuMa <br /> 94 - VaCa <br /> 95 - VeLa <br /> 96 - VaSo <br /> 97 - «BeeF» (ternera) <br /> 98 - BaCHe <br /> 99 - BaBa </p>
+            <p> Después de memorizar 10 imágenes, haga clic en el asterisco e intente recordar 10 números usando estas imágenes y el método Cicero. </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_18">
+        <![CDATA[
+            <h2> ¡Repita los números del 80 al 100! </h2>
+            <p> ¡Hurra! Recuerda 20 códigos figurativos más. Es necesario consolidar el pasado. </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_19">
+        <![CDATA[
+            <h2> ¡Repetición final (0-100)! </h2>
+            <p> ¡Hurra! Recuerda 100 códigos figurativos. ¡Lo hiciste! ¡Felicitaciones! ¡Es increíble! </p>
+            <p> ¡Recuerda 20 números con el método Cicero e imágenes aprendidas! </p>
+            <p> ¡Lo lograrás! </p>
+        ]]>
+    </string>
+
+    <!-- Tips -->
+
+    <string name="first_start_info">"
+        <![CDATA[
+            <h3>Acerca de la aplicación</h3>
+            <p>Esta aplicación lo familiarizará con los sistemas mnemónicos básicos y proporcionará una plataforma eficaz y flexible para desarrollar la capacidad de memorizar <b>números</b>, <b>palabras</b> y <b>tarjetas</b>.</p>
+            <p>Para comprender el mecanismo del funcionamiento de los sistemas de memoria, siga el <b>Tutorial</b> y solo <b>después</b> comience a memorizar.</p>
+            <p>Nada te dará resultados instantáneos. Esto requiere mucho trabajo y formación. Esta aplicación te ayudará con esto. ¡Buena suerte!</p>
+        ]]>"</string>
+
+    <string name="result_info">
+        <![CDATA[
+            <h3>¿Cómo se calcula el factor de memorización?</h3>
+            <p><span style="text-decoration: underline;"><em> Coeficiente_de_memorización</em></span> [<em>CM</em>] = (<em>número_de_respuestas_correctas</em> + (<em>número_de_números_memorizados</em> -<em> tiempo_transcurrido / 6 )</em></p>
+            <p><em>Explicación.</em></p>
+            <p>Dado que el tiempo medio de memorización para 1 número = 6 segundos, al memorizar 10 números en 60 segundos (10 * 6) obtenemos un factor de memorización de 10. Esto corresponde y refleja la capacidad de una persona para memorizar.</p>
+            <p>En consecuencia, si una persona memorizó 10 números en 120 segundos (12 * 10), y 12 segundos es el tiempo máximo permitido para memorizar 1 número, entonces el coeficiente será 0.</p>
+            <p>Si memoriza más rápido que el promedio de 60 segundos, digamos 30 segundos, entonces las probabilidades serán 15, lo que fomenta la memorización rápida.</p>
+        ]]>
+     </string>
+
+    <string name="result_pi_info">
+        <![CDATA[
+            <h3>Cómo se calcula el índice al memorizar los signos pi:</h3>
+            <p><em>Índice de memorización</em> = <em>número de respuestas correctas</em> multiplicado por <em>multiplicador-M</em>.</p>
+            <p><em>Multiplicador-M</em> = <em>número de respuestas correctas</em> / <em>total recordado</em></p>
+        ]]>
+    </string>
+
+    <string name="prestart_words_info">
+         <![CDATA[
+             <h3>Memorizando palabras</h3>
+             <p> Memorizarás palabras sustantivas </p>
+             <p> Al responder es necesario reproducir la <ins><i>secuencia</i></ins> de palabras</p>
+         ]]>
+     </string>
+
+    <string name="prestart_numbers_info">
+         <![CDATA[
+             <h3>Memorizando números</h3>
+             <p>En el modo de formación, son posibles mensajes de texto/figurativos.</p>
+             <p>Hay un modo para <i>ingresar números</i> y <i>seleccionar de una lista</i>.</p>
+             <p>Realice una formación para aprender a memorizar esta información de forma eficaz.</p>
+             <p>Se puede memorizar imágenes preparadas para números y, durante la respuesta - ingrese números (lea las secciones relevantes en teoría).</p>
+         ]]>
+    </string>
+
+    <string name="prestart_deck_info">
+        <![CDATA[
+            <h3>Memorizando tarjetas</h3>
+            <p>En el modo de formación, son posibles mensajes de texto/figurativos.</p>
+            <p>Realice una formación para aprender a memorizar con éxito dicha información.</p>
+        ]]>
+    </string>
+
+    <string name="prestart_pi_info">
+        <![CDATA[
+            <h3>Memorizar los signos Pi</h3>
+            <p>En el modo de entrenamiento, son posibles sugerencias de texto/imagen.</p>
+            <p>Complete la capacitación para aprender a recordar con éxito dicha información.</p>
+        ]]>
+    </string>
+
+    <string name="prestart_words_4bk_info">
+         <![CDATA[
+             <h3>Modo de memorización IPP (imágenes de palabras personalizadas)</h3>
+             <p>¡Modo de memorización de números para aquellos que han sido entrenados!</p>
+             <p>¡Memoriza imágenes y <i>traduce</i> a números!</p>
+         ]]>
+    </string>
+
+    <string name="prestart_figures_info">
+         <![CDATA[
+            <h3> Memorización de figuras </h3>
+            <p> El modo Figuras te da la oportunidad de perfeccionar tus habilidades para memorizar figuras geométricas. </p>
+         ]]>
+    </string>
+
+
+    <!-- Плохо -->
+
+    <string name="strings_set_deck_info">
+        <![CDATA[
+            <h3> Imágenes de la baraja </h3>
+
+            <p> Aquí puede ver y cambiar los nombres de las sugerencias de tarjetas. <br>
+            Inicialmente dado el nombre del sistema, que se basa en el principio: </p>
+            <p> Nombre = Código de Palo + Código de tarjeta </p>
+
+            <p>Códigos de Palos:<br>
+            <br>• Corazones - C
+            <br>• Picas - P
+            <br>• Tréboles - T
+            <br>• Diamantes - D</p>
+
+            <p>Código de tarjeta:<br>
+
+            <br>• As = ? [T, D]
+            <br>• 2 = [N, Ñ]
+            <br>• 3 = [M]
+            <br>• 4 = [C]
+            <br>• 5 = [L]
+            <br>• 6 = [S, Z]
+            <br>• 7 = [F]
+            <br>• 8 = [Ch, G]
+            <br>• 9 = [B, V, P]
+            <br>• 10 = [R]
+            <br>• sota/valet/jack = J
+            <br>• dama/queen = Q
+            <br>• rey/king = K </p>
+
+            Por ejemplo, 2 de tréboles = [tréboles = T] + [2 = N, Ñ] = T + N = la palabra "TriNeo" </p>
+            <p> Existe una variedad de sistemas diferentes para memorizar la baraja de cartas. Puedes usar este o crear el tuyo propio según tu gusto. </p>
+            <p> Para obtener más información, vaya al Tutorial. </p>
+         ]]>
+    </string>
+
+    <string name="strings_set_numbers_info">
+        <![CDATA[
+            <h3>Asignar sonidos a dígitos</h3>
+            <p>Aquí puede ver o cambiar los nombres de las sugerencias por números.</p>
+            <p>Cada número está asociado con una o más consonantes. Las vocales y las consonantes w, h e y se ignoran. Estos se pueden utilizar como "rellenos" para formar palabras sensibles a partir de las secuencias de consonantes resultantes. Cartografía:</p>
+
+            <p>• 0 = [R]
+            <br>• 1 = [T, D]
+            <br>• 2 = [N, Ñ]
+            <br>• 3 = [M]
+            <br>• 4 = [C]
+            <br>• 5 = [L]
+            <br>• 6 = [S, Z]
+            <br>• 7 = [F]
+            <br>• 8 = [Ch, G, J]
+            <br>• 9 = [B, V, P]</p>
+
+            <p>Por ejemplo, para memorizar el 69, deberíamos usar sonidos 6 = [S,Z] y 9 = [ B, V, P] y descifrar la palabra. Y obtenemos la imagen de palabra para memorizar - <i>SaPo<i>.</p>
+
+            <p>Y aquí es mnemónico para recordar:<br>
+
+            <br>• 0 = Ya que la palabra cero contiene esta letra.
+            <br>• 1 = Por similitud gráfica.
+            <br>• 2 = Porque la “n” tiene dos “patas”
+            <br>• 3 = Porque tiene tres “patas”
+            <br>• 4 = Porque la palabra “cuatro” comienza por “c”
+            <br>• 5 = Ya que la “L” en números romanos simboliza la cantidad de 50
+            <br>• 6 = Porque la palabra “seis” comienza por “s”
+            <br>• 7 = Por similitud gráfica
+            <br>• 8 = Ya que la palabra “ocho” contiene este conjunto
+            <br>• 9 = Ya que la palabra “nueve” contiene este sonido
+
+            <p>Para obtener más información, vaya a Tutorial.</p>
+         ]]>
+    </string>
+
+    <string name="is_memorize_assigned_to_numbers_words">Memorize prepared words</string>
+    <string name="is_memorize_assigned_to_numbers_words_tip">
+        <![CDATA[
+            <h3>Para usuarios avanzados</h3>
+            <p>Memorizará imágenes preparadas para números y, durante la respuesta - ingrese números.</p>
+            <p>Para comprender cómo funciona esto, lea las secciones relevantes en teoría.</p>
+        ]]>
+    </string>
+
+    <string name="training_or_exam_tip">
+        <![CDATA[
+            <h3>Modo de entrenamiento </h3>
+            <p>En el modo de entrenamiento, se encuentran disponibles sugerencias de texto/imagen. El resultado exitoso no se registrará en la tabla de clasificación.
+            <p>Si el modo de entrenamiento está desactivado, entonces es el modo de examen. Las sugerencias no están disponibles. El resultado exitoso se registrará en la tabla de clasificación. </p>
+        ]]>
+    </string>
+
+    <!--    <p>• Diseño mejorado. Errores corregidos. </p>-->
+
+    <!--    <h3>En la nueva versión: </h3>-->
+    <!--    <p>• Ahora en los ajustes puedes configurar las notificaciones que aparecerán si no has iniciado sesión en la aplicación durante algún tiempo.</p>-->
+    <!--    <p>• Mejoras en el diseño.</p>-->
+
+    <string name="in_new_version">
+        <![CDATA[
+            <h3>En la nueva versión: </h3>
+            <p>• Diseño mejorado. Errores corregidos. </p>
+            <p>• Nuevo modo de visualización de tarjetas de memorización. </p>
+         ]]>
+     </string>
+
+</resources>

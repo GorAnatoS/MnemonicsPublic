@@ -1,0 +1,1089 @@
+<resources>
+    <!--    системные   -->
+    <string name="lang">en</string>
+
+    <string name="not_set" translatable="false">not_set</string>
+    <string name="empty_string" translatable="false">""</string>
+
+    <!--ссылки-->
+    <string name="link_discord" translatable="false">https://discord.gg/XpjExcrRe9</string>
+    <string name="discord" translatable="false">Discord</string>
+    <string name="googleplay" translatable="false">GooglePlay</string>
+
+    <string name="market_memo_page" translatable="false">market://details?id=goranatos.memo</string>
+
+    <string name="github" translatable="false">Github</string>
+    <string name="link_mnemonics_public_github_page" translatable="false">https://github.com/GorAnatoS/MnemonicsPublic</string>
+
+    <!-- строки   -->
+    <string name="how_many_n_remember">How much to memorize</string>
+    <string name="auto_next">Timer transition</string>
+    <string name="time_per_one">time per 1 obj (sec):</string>
+    <string name="memorize_only_one_deck">Memorize only one deck</string>
+
+    <string name="go">Go!</string>
+    <string name="number_range">"Range of numbers"</string>
+    <string name="how_to_enter_ans">Answer</string>
+
+    <!--  Экран настроек -->
+    <string name="application_settings">Application settings</string>
+    <string name="pref_answer_settings">Answer input settings</string>
+    <string name="answer_input_mode">Input mode</string>
+    <string name="to_type_answer">type</string>
+    <string name="to_choose_answer">choose</string>
+    <string name="memorization_screen_settings">Screen during memorization</string>
+    <string name="tip_mode_settings">Tip mode</string>
+    <string name="image_label">image</string>
+    <string name="text_label">text</string>
+    <string name="choose_application_language">Language</string>
+    <string name="russian_lang">Russian</string>
+    <string name="english_lang">English</string>
+    <string name="spanish_lang">Spanish</string>
+    <string name="enable_dark_theme">Enable dark theme</string>
+    <string name="enable_timer">Show timer</string>
+    <string name="application_version">Version</string>
+    <string name="backward_recall_mode">Backward recall</string>
+    <string name="backward_recall_summary">enter answers from last to first</string>
+    <string name="notifications_settings_title">Notifications</string>
+    <string name="notifications_settings_summary">Notifications and Reminders</string>
+    <string name="notifications_summary">If for the specified period you are not logged into the application, then show reminders.</string>
+    <string name="notifications_waiting_days_title">Days</string>
+    <string name="notifications_waiting_days_summary">Set after how many days of your absence in the application to show notifications.</string>
+    <string name="general_settings_title">General</string>
+    <string name="general_settings_summary">Language and appearance</string>
+    <string name="memorization_settings_title">Memorization</string>
+    <string name="memorization_settings_summary">Input mode and screen setting</string>
+
+    <string name="are_you_sure_to_exit_your_account">Do you want to log out of your account?</string>
+    <string name="stay_your_account">@string/cancel</string>
+    <string name="sign_out_your_account">Sign out</string>
+
+    <string name="general_settings_key" translatable="false">general</string>
+    <string name="memorization_settings_key" translatable="false">memorization</string>
+    <string name="notifications_settings_key" translatable="false">notifications</string>
+    <string name="settings_to_type_answer_value" translatable="false">type</string>
+    <string name="settings_to_choose_answer_value" translatable="false">choose</string>
+    <string name="image_value" translatable="false">image</string>
+    <string name="text_value" translatable="false">text</string>
+    <string name="ru" translatable="false">ru</string>
+    <string name="en" translatable="false">en</string>
+    <string name="es" translatable="false">es</string>
+    <string name="pref_option_sign_button" translatable="false">pref_option_sign_button</string>
+    <string name="account_settings" translatable="false">Google Play</string>
+
+    <string name="before_ans_tv" translatable="false">%1$d + %2$d</string>
+    <string name="x_from_n" translatable="false">%1$d / %2$d</string>
+
+    <string name="change_modes_visualization">change visualization mode</string>
+
+    <string name="help">Help</string>
+    <string name="choose_card">Choose a card:</string>
+    <string name="choose_figure">Choose the figure:</string>
+    <string name="enter_new_name">Enter a new name</string>
+    <string name="old_name_is">Old name =&#160;</string>
+    <string name="wrong_input">Incorrect entry</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="no_exam_data">No data. Take the exam.</string>
+    <string name="memo_index_label">Memorization index</string>
+    <string name="statistics_cleared">Statistics are dropped</string>
+    <string name="drop_statistics">Do you want to reset statistics?</string>
+    <string name="settings">Settings</string>
+
+    <!--    cards-->
+    <string name="suit_club_day_theme" translatable="false">♣</string>
+    <string name="suit_diamond_day_theme" translatable="false">♦</string>
+    <string name="suit_spade_day_theme" translatable="false">♠</string>
+    <string name="suit_heart_day_theme" translatable="false">♥</string>
+
+    <string name="card_10" translatable="false">10</string>
+    <string name="card_2" translatable="false">2</string>
+    <string name="card_3" translatable="false">3</string>
+    <string name="card_4" translatable="false">4</string>
+    <string name="card_5" translatable="false">5</string>
+    <string name="card_6" translatable="false">6</string>
+    <string name="card_7" translatable="false">7</string>
+    <string name="card_8" translatable="false">8</string>
+    <string name="card_9" translatable="false">9</string>
+    <string name="card_jack" translatable="false">J</string>
+    <string name="card_queen" translatable="false">Q</string>
+    <string name="card_king" translatable="false">K</string>
+    <string name="card_ace" translatable="false">A</string>
+
+    <string name="bottom_name_of_card" translatable="false">99</string>
+
+    <!-- title fragment`s-->
+    <string name="tutorial">Tutorial</string>
+    <string name="memorize">Memorize</string>
+    <string name="tip">Tip</string>
+    <string name="numbers">Numbers</string>
+    <string name="cards">Cards</string>
+    <string name="words">Words</string>
+    <string name="pi_digits">π digits</string>
+    <string name="figures">Figures</string>
+    <string name="memo">Mnemonics</string>
+    <string name="deck">Cards</string>
+    <string name="statistics">Statistics</string>
+    <string name="donation">Support/Feedback</string>
+    <string name="done">Done</string>
+    <string name="memorized">Done!</string>
+    <string name="wrong_answer">Wrong input</string>
+    <string name="title_settings_set_strings_fragment">Settings</string>
+    <string name="title_exam_fragment">Memorizing</string>
+    <string name="title_result_fragment">Result</string>
+    <string name="title_before_answer_fragment">Answering</string>
+    <string name="title_donut_fragment">Support us</string>
+
+    <!-- notifications -->
+    <string name="notification_title">@string/mnemonics</string>
+    <string name="notification_message">You haven\'t logged into the app for a long time. Would you like to come in and train your memory?</string>
+
+    <!--    кнопки меню-->
+    <string name="saveData">Save</string>
+
+    <string name="str_continue">Continue</string>
+    <string name="all_together">all</string>
+    <string name="remember_words_from">Words from</string>
+    <string name="by_one">by one</string>
+    <string name="memorize_by">Memorize</string>
+    <string name="from_dictionary">dictionary</string>
+    <string name="from_4bk_images">CWI-images</string>
+
+    <string name="title_ans_exam_typing_fragment">Enter answer</string>
+    <string name="title_ans_exam_choosing_fragment">Choose answer</string>
+    <string name="title_help_n_fragment">Help</string>
+    <string name="title_re_check_fragment">Recheck</string>
+    <string name="title_exam_many_fragment">Memorize it</string>
+    <string name="title_images_collection_fragment">Collection</string>
+    <string name="type_it">type</string>
+    <string name="lesson">Lesson</string>
+    <string name="homeFragment">Mnemonics</string>
+
+    <string name="on_one_word">one word</string>
+    <string name="on_one_card">one card</string>
+    <string name="on_one_number">one number</string>
+    <string name="on_one_figure">one figure</string>
+    <string name="on_one_pi_sign">one π sign</string>
+
+    <string name="change_this_card_on">"Replace this card with: "</string>
+    <string name="names_of_numbers">Names of numbers</string>
+    <string name="reset">Reset</string>
+    <string name="ready">Ready</string>
+    <string name="exercises">Add the numbers</string>
+    <string name="write_answer">answer</string>
+    <string name="save">Save</string>
+    <string name="title_name_of_card">Card name</string>
+    <string name="images">Images</string>
+    <string name="deck_names">Card names</string>
+    <string name="to_check">Check</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="enter_number">Enter the number</string>
+    <string name="enter_word">Enter word</string>
+    <string name="enter_pi_sign">Enter π sign</string>
+
+    <string name="continueInterruptedMemorizingTitle">Your previous memorization (mode - %1$s) was interrupted.</string>
+    <string name="continueInterruptedMemorizingMessage">If you want to continue, go to the appropriate category and start memorizing.\n\nOr you can start new memorization.</string>
+    <string name="continueInterruptedMemorizing">Continue</string>
+    <string name="startNewOneAfterInterruptedMemorizing">New one</string>
+
+    <string name="name_of_word">word</string>
+    <string name="name_of_card">card</string>
+    <string name="name_of_num">number</string>
+    <string name="name_of_figure">figure</string>
+
+    <string name="prestart_pi_wrong_settings">Error memorization preparation. Check that all parameters are correct.</string>
+
+    <string name="to_next_fragment">Next</string>
+    <string name="what_word_was">What word was?</string>
+    <string name="what_number_was">What number was?</string>
+    <string name="error">Error</string>
+    <string name="congrats">Congratulations! Chart has been updated</string>
+    <string name="reset_deck_to_preset_names">Reset to original card names?</string>
+    <string name="reset_numbers_to_preset_names">Reset to original number names?</string>
+    <string name="card_error">Wrong</string>
+    <string name="suit_error">Wrong</string>
+    <string name="nums_names_are_reset">The names of the numbers have been reset to the original.</string>
+    <string name="thanks_for_donation">Thank you for your contribution to the development of the application!</string>
+    <string name="lesson_flop">Failure! You will succeed, do not bother! Take a break and try the lesson again. Good luck!</string>
+    <string name="statistics_toast">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec
+        \nCoefficient: %4$.2f\nType: %5$s\nIs training mode: %6$s\nIs good result: %7$s</string>
+    <string name="statistics_toast_old">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec\nCoefficient: %4$.2f</string>
+
+    <string name="flop">The attempt has failed</string>
+    <string name="tv_donut">"Dear users!\n\nThank you for your interest in Mnemonics, deliberately remains free, without any functionality restrictions and monetization advertising.\n\nIt is a pet project of a small team. So any help would be very useful for further Mnemonics development!"</string>
+    <string name="about_mnemonics">About Mnemonics</string>
+    <string name="chain">Link method</string>
+    <string name="matreshka">Russian doll</string>
+    <string name="method_of_loci">Memory palace</string>
+    <string name="introduction">Intro</string>
+    <string name="mnemonics">Mnemonics</string>
+    <string name="basic_techniques">Basic techniques</string>
+    <string name="application">Application</string>
+    <string name="about_method">About method</string>
+    <string name="сomplicating">Complicating</string>
+    <string name="one_more_time">One more time</string>
+    <string name="fasten">Fasten</string>
+    <string name="preparation_1">Preparation I</string>
+    <string name="lets_try">Let do it</string>
+    <string name="what_will_be_next">What will be next</string>
+
+    <string name="matreshka_method_n">Memorize %1$d words by "Russian doll method"</string>
+    <string name="memory_palace_method_n">Memorize %1$d words by Cicero method</string>
+    <string name="remember_n_numbers">Memorize %1$d numbers</string>
+    <string name="chain_method_n">Memorize %1$d words by Chain method</string>
+    <string name="image_for_deck_exam" translatable="false">image for deck or figure exam</string>
+    <string name="card_of_n_number" translatable="false">card of n-number</string>
+
+    <string name="from">from</string>
+    <string name="till">till</string>
+    <string name="reset_statistics">Reset statistics</string>
+
+    <string name="you_can_find_us">You can find us on:</string>
+    <string name="make_mnemonics_translation_better">You can help us make Mnemonics better with improving or create new translations</string>
+
+    <string name="toast_choose_lang_first">First select your language</string>
+
+    <string name="slide_1_title">Hey!</string>
+    <string name="slide_1_desc">This app will teach you how to memorize information effectively! You will improve:</string>
+
+    <string name="slide_2_title">Memorizing numbers</string>
+    <string name="slide_2_desc">You can memorize a lot of numerical information!</string>
+
+    <string name="slide_3_title">Memorizing playing cards</string>
+    <string name="slide_3_desc">You will quickly memorize playing cards! </string>
+
+    <string name="slide_4_title">Memory, attention and imagination</string>
+    <string name="slide_4_desc">Your trainings will improve these abilities </string>
+
+    <string name="slide_5_title">Just do it! </string>
+    <string name="slide_5_desc">Train hard and your memory will amaze everyone, even you - be sure!</string>
+
+    <string name="slide_figures_title">Memorizing geometric figures</string>
+    <string name="slide_figures_desc">You will develop image memory!</string>
+
+    <string name="bottom_nav_statistics">@string/statistics</string>
+    <string name="bottom_nav_tutorial">@string/tutorial</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="preference_sign_in_title">Sign in to your account</string>
+    <string name="preference_sign_out_title">Sign out of your account</string>
+    <string name="memorization_by_type">Distribution by type</string>
+    <string name="is_training_mode">Training mode</string>
+
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue </string>
+    <string name="wednesday">Wed </string>
+    <string name="thursday">Thu </string>
+    <string name="friday">Fri </string>
+    <string name="saturday">Sat </string>
+    <string name="sunday">Sun </string>
+    <string name="streak_title">Streak</string>
+
+    <string name="tutorial_progress_text" formatted="false" translatable="false">Progress: %1$.0f \%%</string>
+
+    <string name="chip_training_data">training</string>
+    <string name="chip_exam_data">exam</string>
+    <string name="all_data">all</string>
+    <string name="chip_show_failed_attempts">show failed attempts</string>
+    <string name="best_result_title">Best:</string>
+    <string name="total_memorized_title">Total:</string>
+    <string name="our_partners">Partners</string>
+    <string name="title_partners_fragment_title">Our partners</string>
+    <string name="tvAfricanChildrensFundDescription">Our work with grass roots partners in Kenya, Tanzania, Uganda and Zimbabwe in education and children’s rights is making a real difference to the lives of 2,500 children born into poverty every year. Helping children off the streets and into school gives them a chance to improve their lives and build a better future.</string>
+    <string name="tvChildrenIncorporatedDescription">We are an international nonprofit organization that supports children living in poverty through two primary approaches: child sponsorship and special funds. We partner with nearly 300 projects in 21 countries around the world to provide impoverished children with basic needs so they can attend school, receive an education and have the opportunity to succeed.</string>
+    <string name="children_incorporated" translatable="false">Children Incorporated</string>
+    <string name="https_childrenincorporated_org" translatable="false">https://childrenincorporated.org/</string>
+    <string name="https_www_africanchildrensfund_org" translatable="false">https://www.africanchildrensfund.org/</string>
+    <string name="african_children_s_fund" translatable="false">African Children’s Fund</string>
+    <string name="empty_result" translatable="false">-</string>
+
+    <string name="result_info_right">Correct:</string>
+    <string name="result_info_from">of</string>
+    <string name="result_info_for">in</string>
+    <string name="result_info_sec">sec</string>
+    <string name="result_info_on_1_spent">Spent on %1$s:</string>
+    <string name="result_info_second">sec</string>
+    <string name="result_info_memo_index">Memo index:</string>
+
+    <string name="chip_numbers">numbers</string>
+    <string name="chip_cards">cards</string>
+    <string name="chip_words">words</string>
+    <string name="chip_figures">figures</string>
+    <string name="chip_pi">π digits</string>
+
+    <string name="mnemonics_application_name">Mnemonics</string>
+
+    <string name="title_cards_in_deck">Deck of</string>
+    <string name="deck_36_cards">36 cards</string>
+    <string name="deck_52_cards">52 cards</string>
+
+    <string name="statistics_empty_data">No records of selected type in database.\n\nChoose other chips or take the appropriate training or exam for analytics to appear.</string>
+
+    <string name="chart_value_selected_out_of">out of</string> <!-- Слова: 1 ИЗ 5-->
+
+    <string name="update_downloaded">An update has just been downloaded.</string>
+    <string name="update_upload_failed">App Update has been failed, please try again on the next app launch.</string>
+    <string name="how_to_do_it">How to remember numbers?</string>
+    <string name="from_10_to_20">Training numbers in range 10–20</string>
+    <string name="cards_names_are_reset">Card names have been reset to the origin</string>
+    <string name="numbers_remembering_lessons_title">Numbers memorizing I</string>
+    <string name="numbers_remembering_lessons_title2">Numbers memorizing II</string>
+    <string name="repeat_all">Repeat all</string>
+    <string name="names">Names</string>
+    <string name="from_0_to_10">Memorize numbers in range 0 to 10</string>
+    <string name="from_20_to_30">Training numbers in range 20 to 30</string>
+    <string name="from_30_to_40">Numbers in range 30 – 40</string>
+    <string name="repeat_from_20_to_40">Repeat numbers from 20 to 40</string>
+    <string name="from_40_to_50">Training numbers in range 40 to 50</string>
+    <string name="from_50_to_60">Memorizing numbers in range 50 – 60</string>
+    <string name="repeat_from_40_to_60">Repeat numbers from 40 to 60</string>
+    <string name="repeat_from_0_to_60">Repeat numbers from 0 to 60</string>
+    <string name="from_60_to_70">Memorizing numbers in range 60 – 70</string>
+    <string name="from_70_to_80">Training numbers in range 70 to 80</string>
+    <string name="repeat_from_60_to_80">Repeat numbers from 60 to 80</string>
+    <string name="repeat_from_0_to_80">Repeat 0 – 80</string>
+    <string name="from_80_to_90">Memorizing numbers in range 80 – 90</string>
+    <string name="from_90_to_100">Training numbers in range 90 to 100</string>
+    <string name="repeat_from_80_to_100">Repeat 80 – 100</string>
+    <string name="repeat_from_0_to_100">Final repeat - from 0 to 100!</string>
+
+    <string name="how_many_pi_digits_in_one_item">π digits in one cell</string>
+    <string name="from_what_position_to_memorize">From what position to memorize</string>
+
+    <string name="bad_input_of_signs_in_one_Item">Wrong input. Should be in range 1 to 6</string>
+    <string name="bad_input_of_starting_pi_position_memorizing">Can\'t be empty</string>
+
+    <!-- WebView styling -->
+    <string name="webview_dark_mode_style" translatable="false">
+        <![CDATA[
+            <style type=\"text/css\">body{color: rgba(255, 255, 255, 0.87) ; background-color: #23241D}
+            a {color: #f48fb1;}
+            </style>"
+        ]]>
+    </string>
+
+    <string name="webview_light_mode_style" translatable="false">
+        <![CDATA[
+            <style type=\"text/css\">body{color: rgba(0, 0, 0, 1.00);; background-color: #FFFFFF}
+            a {color: #880e4f;}
+            </style>"
+        ]]>
+    </string>
+
+    <!--Уроки-->
+    <string name="lesson_intro_0">
+        <![CDATA[
+            <h2>History</h2>
+            <p>The general name of <strong>mnemonics</strong>, or <em>memoria technica,</em> was the name applied to devices for aiding the memory, to enable the mind to reproduce a relatively unfamiliar idea, and especially a series of dissociated ideas, by connecting it, or them, in some artificial whole, the parts of which are mutually suggestive. Mnemonic devices were much cultivated by Greek sophists and philosophers and are frequently referred to by Plato and Aristotle. In later times the poet Simonides was credited for development of these techniques, perhaps for no reason other than that the power of his memory was famous. Cicero, who attaches considerable importance to the art, but more to the principle of order as the best help to memory, speaks of Carneades (perhaps Charmades) of Athens and Metrodorus of Scepsis as distinguished examples of people<br />who used well-ordered images to aid the memory. The Romans valued such help in order to support facility in public speaking.</p>
+            <p>The Greek and the Roman system of mnemonics was founded on the use of mental places and signs or pictures, known as "topical" mnemonics. The most usual method was to choose a large house, of which the apartments, walls, windows, statues, furniture, etc., were each associated with certain names, phrases, events or ideas, by means of symbolic pictures. To recall these, an individual had only to search over the apartments of the house until discovering the places where images had been placed by the imagination.</p>
+            <p>In accordance with this system, if it were desired to fix a historic date in memory, it was localised in an imaginary town divided into a certain number of districts, each with ten houses, each house with ten rooms, and each room with a hundred quadrates or memory-places, partly on the floor, partly on the four walls, partly on the ceiling. Therefore, if it were desired to fix in the memory the date of the invention of printing (1436), an imaginary book, or some other symbol of printing, would be placed in the thirty-sixth quadrate or memory-place of the fourth room of the first house of the historic district of the town. Except that the rules of mnemonics are referred to by Martianus Capella, nothing further is known regarding the practice until the 13th century</p>
+            <p>Among the voluminous writings of Roger Bacon is a tractate <em>De arte memorativa</em>. Ramon Llull devoted special attention to mnemonics in connection with his <em>ars generalis.</em> The first important modification of the method of the Romans was that invented by the German poet Konrad Celtes, who, in his <em>Epitoma in utramque Ciceronis rhetoricam cum arte memorativa nova</em> (1492), used letters of the alphabet for associations, rather than places. About the end of the 15th century, Petrus de Ravenna (b. 1448) provoked such astonishment in Italy by his mnemonic feats that he was believed by many to be a necromancer. His book, <em>Phoenix artis memoriae</em> (Venice, 1491, 4 vols.) went through as many as nine editions, the seventh being published at Cologne in 1608.</p>
+            <pIt was about the end of the 16th century, when Lambert Schenkel (<em>Gazophylacium</em>, 1610), who taught mnemonics in France, Italy and Germany, similarly surprised people with his memory. He was denounced as a sorcerer by the University of Louvain, but in 1593 he published his tractate <em>De memoria</em> at Douai with the sanction of that celebrated theological faculty. The most complete account of his system is given in two works by his pupil Martin Sommer, published in Venice in 1619. In 1618 John Willis (d. 1628?) published <em>Mnemonica; sive ars reminiscendi</em>, containing a clear statement of the principles of topical or local mnemonics. Giordano Bruno included a <em>memoria technica</em> in his treatise <em>De umbris idearum,</em> as part of his study of the <em>ars generalis</em> of Llull. Other writers of this period are the Florentine Publicius (1482); Johannes Romberch (1533); Hieronimo Morafiot, <em>Ars memoriae</em> (1602);and B. Porta, <em>Ars reminiscendi</em> (1602).</p>
+            <p>In 1648 Stanislaus Mink von Wennsshein revealed what he called the "most fertile secret" in mnemonics &mdash; using consonants for figures, thus expressing numbers by words (vowels being added as required), in order to create associations more readily remembered. The philosopher Gottfried Wilhelm Leibniz adopted an alphabet very similar to that of Wennsshein for his scheme of a form of writing common to all languages.</p>
+            <p>Wennsshein\'s method was adopted with slight changes afterward by the majority of subsequent "original" systems. It was modified and supplemented by Richard Grey (1694-1771), a priest who published a <em>Memoria technica</em> in 1730. The principal part of Grey\'s method is briefly this:</p>
+            <blockquote>
+            <p>To remember anything in history, chronology, geography, etc., a word is formed, the beginning whereof, being the first syllable or syllables of the thing sought, does, by frequent repetition, of course draw after it the latter part, which is so contrived as to give the answer. Thus, in history, the Deluge happened in the year before Christ two thousand three hundred forty-eight; this is signified by the word Del-<em>etok</em>, Del standing for Deluge and <em>etok</em> for 2348.</p>
+            </blockquote>
+            <p>(His method is comparable to the Hebrew system by which letters also stand for numerals, and therefore words for dates.)</p>
+            <p>To assist in retaining the mnemonical words in the memory, they were formed into memorial lines. Such strange words in difficult hexameter scansion, are by no means easy to memorise. The vowel or consonant, which Grey connected with a particular figure, was chosen arbitrarily.</p>
+            <p>A later modification was made in 1806 by Gregor von Feinaigle, a German monk from Salem near Constance. While living and working in Paris, he expounded a system of mnemonics in which (as in Wennsshein) the numerical figures are represented by letters chosen due to some similarity to the figure or an accidental connection with it. This alphabet was supplemented by a complicated system of localities and signs. Feinaigle, who apparently did not publish any written documentation of this method, travelled to England in 1811. The following year one of his pupils published <em>The New Art of Memory</em> (1812), giving Feinaigle\'s system. In addition, it contains valuable historical material about previous systems.</p>
+            <p>Other mnemonists later published simplified forms, as the more complicated menemonics were generally abandoned. Methods founded chiefly on the so-called laws of association (cf. Mental association) were taught with some success in Germany.</p>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_1">
+        <![CDATA[
+            <h2>Mnemonic</h2>
+            <p>A <strong>mnemonic</strong> <strong>device</strong>, or <strong>memory device</strong>, is any learning technique that aids information retention or retrieval (remembering) in the human memory. Mnemonics make use of elaborative encoding, retrieval cues, and imagery as specific tools to encode any given information in a way that allows for efficient storage and retrieval. Mnemonics aid original information in becoming associated with something more accessible or meaningful&mdash;which, in turn, provides better retention of the information.</p>
+            <p>Commonly encountered mnemonics are often used for lists and in auditory form, such as short poems, acronyms, initialisms, or memorable phrases, but mnemonics can also be used for other types of information and in visual or kinesthetic forms. Their use is based on the observation that the human mind more easily remembers spatial, personal, surprising, physical, sexual, humorous, or otherwise "relatable" information, rather than more abstract or impersonal forms of information.</p>
+            <p>The word "mnemonic" is derived from the Ancient Greek word &mu;&nu;&eta;&mu;&omicron;&nu;&iota;&kappa;ό&sigmaf; (<em>mnēmonikos</em>), meaning "of memory, or relating to memory" and is related to Mnemosyne ("remembrance"), the name of the goddess of memory in Greek mythology. Both of these words are derived from &mu;&nu;ή&mu;&eta; (<em>mnēmē</em>), "remembrance, memory". Mnemonics in antiquity were most often considered in the context of what is today known as the art of memory.</p>
+            <p>Ancient Greeks and Romans distinguished between two types of memory: the "natural" memory and the "artificial" memory. The former is inborn, and is the one that everyone uses instinctively. The latter in contrast has to be trained and developed through the learning and practice of a variety of mnemonic techniques.</p>
+            <p>Mnemonic systems are techniques or strategies consciously used to improve memory. They help use information already stored in long-term memory to make memorization an easier task.</p>
+            <p>Mnemonics allows you to remember information from a single perception of each element. For example, 100 random words (numbers) can be remembered sequentially with an average interval of 6 seconds.</p>
+            <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Example</a>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_2">
+        <![CDATA[
+            <h2>The main method of memorization in modern mnemonics</h2>
+            <p>Memorization in mnemonics is based on the property of memory to very quickly remember the connection between simultaneously perceived images (or, what is the same, the connection between images created in the imagination).</p>
+            <p>The illustrated system of figurative codes is one of the main methods of memorization, along with the “shock method” - the method of forming an artificial association (the connection of several images with parts of one image).</p>
+            <p>The volume of memorization with the help of mnemonics is limited by a rather low memorization speed (on average 6 seconds per record in the memory of one connection). Mnemonic memorization is similar to figurative notes: the most important is also remembered in the form of visual images.</p>
+            <p>When storing large amounts of information in one form or another, a mental mnemonic process and a method of remembering grouping are used, including: breaking the array into fragments known and unknown to humans; combining the elements of each unknown fragment into a single integral memory object; linking all known and combined fragments of the array into a whole; repetition of actions for breaking down, combining and linking to the final result in the form of a set of associatively connected memory objects, providing convenient easy access to memory to the contents of the original information array as a whole</p>
+            <p>In the modern interpretation, <strong>mnemonics</strong> means the whole set of techniques and methods of remembering information used in a particular system, and the term  <strong>mnemonics</strong> is interpreted as a practical application of the methods defined in this particular mnemonics.</p>
+
+            <h2>Types</h2>
+            <dl>
+            <dt>1. Music mnemonics</dt>
+            <dd>Songs and jingles can be used as a mnemonic. A common example is how children remember the alphabet by singing the ABCs.</dd>
+            </dl>
+            <dl>
+            <dt>2. Name mnemonics (acronym)</dt>
+            <dd>The first letter of each word is combined into a new word. For example: VIBGYOR (or ROY G BIV) for the colours of the rainbow or HOMES for the Great Lakes.</dd>
+            </dl>
+            <dl>
+            <dt>3. Expression or word mnemonics</dt>
+            <dd>The first letter of each word is combined to form a phrase or sentence — e.g. "Richard of York gave battle in vain" for the colours of the rainbow.</dd>
+            </dl>
+            <dl>
+            <dt>4. Model mnemonics</dt>
+            <dd>A model is used to help recall information. Applications of this method involve the use of diagrams, cycles, graphs, and flowcharts to help understand or memorize an idea. e.g. cell cycle, pie charts, pyramid models.</dd>
+            </dl>
+            <dl>
+            <dt>5. Ode mnemonics</dt>
+            <dd>The information is placed into a poem or doggerel, — e.g. "Note socer, gener, liberi, and Liber god of revelry, like puer these retain the \'e\'" (most Latin nouns of the second declension ending in -er drop the -e in all of the oblique cases except the vocative, these are the exceptions).</dd>
+            </dl>
+            <dl>
+            <dt>6. Note organization mnemonics</dt>
+            <dd>The method of note organization can be used as a memorization technique. Applications of this method involve the use of flash cards and lists. Flash cards are used by putting a question or word on one side of a paper and the answer or definition on the other side of the paper. Lists involve the organization of data from broad to detailed. e.g. Earth &rarr; Continent &rarr; Country.</dd>
+            </dl>
+            <dl>
+            <dt>7. Image mnemonics</dt>
+            <dd>The information is constructed into a picture — e.g. the German weak declension can be remembered as five \'-e\'s\', looking rather like the state of Oklahoma in America, in a sea of \'-en\'s\'.</dd>
+            </dl>
+            <dl>
+            <dt>8. Connection mnemonics</dt>
+            <dd>New knowledge is connected to knowledge already known.</dd>
+            </dl>
+            <dl>
+            <dt>9. Spelling mnemonics</dt>
+            <dd>An example is "<em>i</em> before <em>e</em> except after <em>c</em> or when sounding like <em>a</em> in <em>neighbor</em> and <em>weigh</em>".</dd>
+            </dl>
+            <a href="https://www.youtube.com/embed/U6PoUg7jXsA">Example</a>
+        ]]>
+    </string>
+
+    <string name="lesson_intro_3">
+        <![CDATA[
+            <h2>About Memo</h2>
+            <h2>What for?</h2>
+            <ul>
+            <li>This application will help you learn how to quickly memorize large amounts of <strong>numerical</strong> information.</li>
+            <li>Help to remember <strong>a deck of playing cards</strong>.</li>
+            <li><strong>Improves</strong> your ability to <strong>concentrate</strong> (working capacity) and develops <strong>memory skills</strong>.</li>
+            </ul>
+            <h3>Professional mnemonists can remember:</h3>
+            <ul>
+            <li>more than 70 numbers per minute (beginners who have mastered mnemonics - 20 numbers in 2 minutes!)</li>
+            <li> a deck of playing cards in less than 30 seconds</li>
+            <li>more than 100,000 digits of Pi</li>
+            </ul>
+            <h4>Examples:</h4>
+            <p>Remembering numbers </p>
+            <a href="https://www.youtube.com/embed/IK1T4EZNqLg">Example of remembering numbers</a>
+            <p>Remembering cards</p>
+            <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Example of remembering cards</a>
+            <h2>What you can learn?</h2>
+            <p>Step by step you dominate main techniques of mnemonic and obtain skill to memorize lots of information in your life. Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_0">
+        <![CDATA[
+            <h2>Mnemonic link system | Chain method</h2>
+            <p>A <strong>mnemonic link system</strong>, sometimes also known as a <strong>chain method</strong>, is a method of remembering lists that is based on creating an association between the elements of that list. For example, when memorizing the list (dog, envelope, thirteen, yarn, window), one could create a story about a "dog stuck in an envelope, mailed to an unlucky thirteen primaryTextColor cat playing with yarn by the window". It is argued that the story would be easier to remember than the list itself.</p>
+            <p>Another method is to actually link each element of the list with a mental picture of an image that includes two elements in the list that are next to each other. This would form an open doubly linked list which could be traversed at will, backwards or forwards. For example, in the last list one could imagine their dog inside of a giant envelope, then a primaryTextColor cat eating an envelope. The same logic would be used with the rest of the items. The observation that absurd images are easier to remember is known as the Von Restorff effect, although the success of this effect was refuted by several studies (Hock et al. 1978; Einstein 1987), which found that the established connection between the two words is more important than the image\'s absurdity.</p>
+            <p>In order to access a certain element of the list, one needs to recite the list step by step, much in the same vein as a linked list, in order to get the element from the system.</p>
+            <p>There are three limitations to the link system. The first is that there is no numerical order imposed when memorizing, hence the practitioner cannot immediately determine the numerical position of an item; this can be solved by bundling numerical markers at set points in the chain or using the peg system instead. The second is that if any of the items is forgotten, the entire list may be in jeopardy. The third is the potential for confusing repeated segments of the list, a common problem when memorizing binary digits. This limitation can be resolved either through bundling or by using either the peg system or the method of loci.</p>
+
+            <a href="https://www.youtube.com/embed/_oAVJ-ucIDs">Example</a>
+
+            <p>Try the exercise by memorizing 10 words using this method.</p>
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.</p>
+            <p>Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_1">
+        <![CDATA[
+            <h2>Mnemonic link system | Chain method</h2>
+
+            <a href="https://www.youtube.com/embed/qpaItR_eRBc">Another explanation</a>
+
+            <p>The brighter and more imaginative you are to represent the images, the better the result! Do not forget:</p>
+            <ul>
+            <li>clearly distinguish the first and second image of the pair</li>
+            <li>to build uniformity in memorizing images - place the second image on top of the first, on the right side of the first, or inside the first</li>
+            <li>the images in pairs should be about the same size</li>
+            <li>do not imagine images separately, but try to create contact between them.</li>
+            </ul>
+            <p>We complicate the task. Try now to remember <strong> 15 </strong> words using this method.</p>
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.</p>
+            <p>Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_chain_2">
+        <![CDATA[
+            <h2>Mnemonic link system | Chain method</h2>
+            <p>Did it? Congratulations!</p>
+            <p>Do not forget about the regularity of training - it is better to training 1 time half an hour a day than 1 time a week, but for 4 hours.</p>
+            <p>The brighter and more imaginative you are to represent the images, the better the result! Do not forget:</p>
+            <ul>
+            <li>clearly distinguish the first and second image of the pair</li>
+            <li>to build uniformity in memorizing images - place the second image on top of the first, on the right side of the first, or inside the first</li>
+            <li>the images in pairs should be about the same size</li>
+            <li>do not imagine images separately, but try to create contact between them.</li>
+            </ul>
+            <p>We complicate the task. Try now to remember <strong> 20 </strong> words using this method.</p>
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.
+            <p>Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_matreshka_0">
+        <![CDATA[
+            <h2>"Russian Doll" Method</h2>
+            <p>Unlike the Chain method in this method, in each pair, the first image is large and the second is small. Since small images are poorly remembered, they resort to the following:<br />Let\'s connect two images: a picture and a chair. Imagine a picture that you know well. Imagine a chair nearby. Now "turn on" in the imagination the approximation of the image.<br />Enlarge the picture so that in your consciousness there is only, say, the signature of the artist in the lower right corner. It should be the size of an apple. The size of the chair does not need to be increased. Now combine the two images: the signature of the artist and the chair. Lock this link in for a few seconds.<br />If you now imagine the picture, then the chair will turn out to be very small on it. In that<br />and the main point of the "Matryoshka" reception lies. When memorizing this trick<br />images are constantly increasing and decreasing. As well as recalling<br />images remembered by this technique.</p>
+            <p>For a more detailed description of the method, you can watch the video:</p>
+
+            <a href="https://www.youtube.com/embed/UFH6nFLXbJc">Explanation</a>
+
+            <p>Try the exercise by memorizing 10 words using this method.</p>
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.
+            <p>Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_matreshka_1">
+        <![CDATA[
+            <h2>"Russian Doll" Method</h2>
+
+            <p>We continue to training the memory. Try to represent the images as brightly as possible and follow the recommendations that were given. It will always be a great workout for imagination and imaginative thinking.</p>
+
+            <p>Try the exercise by memorizing 15 words using this method.</p>
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.
+            <p>Good luck!</p>
+         ]]>
+    </string>
+
+    <string name="lesson_matreshka_2">
+        <![CDATA[
+            <h2>"Russian Doll" Method</h2>
+
+            <p>We will try to consolidate the result. Now try to complete the exercise by remembering <strong> 20 </strong> words using this method.</p>
+
+            <p>You need to get more than <strong>90%</strong> of the correct answers and achieve less than <strong>12</strong> seconds of memorization per word.
+            <p>Good luck!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_0">
+        <![CDATA[
+            <h2>Method of loci | Cicero method</h2>
+            <p>The <strong>method of loci</strong> (<em>loci</em> being Latin for "places") is a strategy of memory enhancement which uses visualizations of familiar spatial environments in order to enhance the recalling of information. The method of loci is also known as the <strong>memory journey</strong>, <strong>memory palace</strong>, or <strong>Cicero method</strong>, or <strong>mind palace technique</strong>. This method is a mnemonic device adopted in ancient Roman and Greek rhetorical treatises (in the anonymous <em>Rhetorica ad Herennium</em>, Cicero\'s <em>De Oratore</em>, and Quintilian\'s <em>Institutio Oratoria</em>). Many memory contest champions report using this technique to recall faces, digits, and lists of words.</p>
+            <p>The term is most often found in specialised works on psychology, neurobiology, and memory, though it was used in the same general way at least as early as the first half of the nineteenth century in works on rhetoric, logic, and philosophy. John O\'Keefe and Lynn Nadel refer to:</p>
+
+            <blockquote>
+            <p>\'the method of loci\', an imaginal technique known to the ancient Greeks and Romans and described by Yates (1966) in her book <em>The Art of Memory</em> as well as by Luria (1969). In this technique the subject memorizes the layout of some building, or the arrangement of shops on a street, or any geographical entity which is composed of a number of discrete loci. When desiring to remember a set of items the subject \'walks\' through these loci in their imagination and commits an item to each one by forming an image between the item and any feature of that locus. Retrieval of items is achieved by \'walking\' through the loci, allowing the latter to activate the desired items. The efficacy of this technique has been well established (Ross and Lawrence 1968, Crovitz 1969, 1971, Briggs, Hawkins and Crovitz 1970, Lea 1975), as is the minimal interference seen with its use.</p>
+            </blockquote>
+
+            <p>The items to be remembered in this mnemonic system are mentally associated with specific physical locations. The method relies on memorized spatial relationships to establish order and recollect memorial content. It is also known as the "Journey Method", used for storing lists of related items, or the "Roman Room" technique, which is most effective for storing unrelated information.</p>
+
+            <p>Before applying this method, you need to decide for yourself what <strong>sequence of walking around the room</strong> you will follow. In other words, you need to determine the sequence of places where you will post your information, that is, <strong>prepare</strong> a reference list of places. Many will just have to keep it in their heads.</p>
+
+            <p>If this is difficult, then, remembering the sequence of elements by the Cicero method for the first time, you can try to walk around the room really, just like him, while arranging the elements mentally. In other cases, pacing around the house, as Cicero did, is not necessary: it is enough to imagine her mentally (the room, of course, must be very familiar). However, it can be any well-known location.</p>
+
+            <p>The Cicero method is based on natural associations, that is, on the connections that are formed in the brain in a natural way with regular perception of visual images that have interconnections. Each person regularly sees the same visual images. These are objects in an apartment, office. These are objects on the street that you often walk along. Since the connections between regularly perceived objects already exist in your brain, these connections do not need to be remembered. You remember them anyway. For the formation of supporting images by the Cicero method, one should only well fix in memory the sequence of images familiar to you. This is done by recalling them repeatedly.</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_1">
+        <![CDATA[
+            <h2>Singling Out Support Images Using Cicero Method | Method of loci</h2>
+            <p>Example. Define the sequence of rooms in your house or apartment, office or your friends’ houses. For example, always memorize rooms in the following order: corridor, bathroom, kitchen, small room, and dining room.</p>
+            <p>Concentrate your attention on one particular room. Say, your corridor. Walk around the corridor in your imagination (always in the same direction - clockwise) and remember 10 different objects.</p>
+            <p>Do the same with other rooms of your apartment. Single out 10 images in the bathroom, in the kitchen, the small room and the dining room.</p>
+            <p>As a result, you will have 50 images. First, you remember 10 images in the corridor, then – 10 images in the kitchen, and so on.</p>
+            <p>Fix the 50 images and their order in your memory using multiple REMEMBERING.</p>
+            <p>This is important!</p>
+            <p>The selected images MUST NOT REPEAT THEMSELVES. Only object names can be repeated. Single out images by remembering them. <br>You need to extract the connections that are already present in the brain. Choose the images that would later allow you to single out 5 more images from them.</p>
+            <p>The Cicero method is used to form a system of support (stimulating) images. The support image system is formed via a combination of different sequence memorization techniques. The images selected with the Cicero method are usually FIRST-LEVEL images in the support image system. If we draw parallels with a computer, they are a parent directory or a root catalogue, through which you come to other support images.</p>
+            <a href="https://www.youtube.com/embed/3vlpQHJ09do">Example</a>
+            <p>The task for you is to <strong>prepare</strong>, for beginning, <strong>10 support images</strong>. In the future, this number will be increased.</p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_2">
+        <![CDATA[
+            <h2>Start</h2>
+            <p>For almost all mnemonists, the Roman room method is fundamental. Therefore, do not be lazy - this is a reserve for the future.</p>
+            <a href="https://www.youtube.com/embed/PIbz_gKw0XY">Another explanation</a>
+            <p>To get started - <strong>prepare</strong> 10 reference images according to the method of the Roman room. These should be objects / locations from an area known to you (your apartment, office, road to the store, etc.). You must select these images in a certain order, which you will adhere to in the future.</p>
+            <p>After you prepare 10 reference images - proceed with the exercise.</p>
+            <p>It will be necessary to remember <strong>10 words</strong> using the Cicero \ Roman room method. For this:</p>
+            <ul>
+            <li style="text-align: left;">visualize every word clearly</li>
+            <li style="text-align: left;">connect the word with the reference image, not forgetting:</li>
+            <ul>
+            <li>clearly distinguish the first and second image of the pair</li>
+            <li>to build uniformity in memorizing images - place the second image on top of the first, on the right side of the first, or inside the first</li>
+            <li>the images in pairs should be about the same size</li>
+            <li>do not imagine images separately, but try to create contact between them</li>
+            </ul>
+            </li>
+            </ul>
+            <p>When “remembering” images, mentally go along the same path, carefully “looking” in the imagination for the support images with which you will remember memorized words.</p>
+            <p>Time after time you will do it faster and faster, honing this skill.</p>
+            <p> Good luck! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_3">
+        <![CDATA[
+            <h2> Complicate </h2>
+            <p> Congratulations! You\'re on the right track. </p>
+            <p> To complete further tasks, you need to prepare another <strong> 10 reference images </strong> and bring the total number to <strong> 20 </strong>. </p>
+            <p> After this, proceed with the assignment. Try the exercise by remembering <strong> 15 </strong> words using this method. </p>
+            <p> You need to get more than <strong> 90% </strong> correct answers and achieve less than <strong> 12 </strong> seconds of memorization per word. </p>
+            <p> Good luck! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_4">
+        <![CDATA[
+            <h2> Fasten </h2>
+            <p> Congratulations! You have made tremendous progress. Do not stop there! </p>
+            <p> Try to consolidate your skills and complete the exercise by remembering <strong> 20 </strong> words using this method. </p>
+            <p> You need to get more than <strong> 90% </strong> correct answers and achieve less than <strong> 12 </strong> seconds of memorization per word. </p>
+            <p> Good luck! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_cicero_5">
+        <![CDATA[
+            <h2> What\'s next? </h2>
+            <p> Congratulations! Well, how do you recognize the fact that you have made tremendous progress, developed memory and imagination? This is just the beginning. Further we will study mnemonics for memorization: </p>
+            <ul>
+            <li> numerical information </li>
+            <li> cards </li>
+            </ul>
+            <p> A list of these lessons will appear in future updates. In the meantime, they are on the way - expand the number of supporting images, bringing them to the number you need. Use the acquired skills in the <em> memorizing words mode </em>. </p>
+            <p> Good luck! </p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_0">
+        <![CDATA[
+            <h3><span id="Assigning_sounds_to_digits" class="mw-headline">Assigning sounds to digits</span></h3>
+            <p>Here you can see or change names of tips for numbers.</p>
+            <p>Each numeral is associated with one or more consonants. Vowels and the consonants w, h, and y are ignored. These can be used as "fillers" to make sensible words from the resulting consonant sequences. Mapping:</p>
+            <ul>
+            <li>0 = [/s/, /z/]</li>
+            <li>1 = [/t/, /d/]</li>
+            <li>2 = [/n/]</li>
+            <li>3 = [/m/]</li>
+            <li>4 = [/r/]</li>
+            <li>5 = [/l/]</li>
+            <li>6 = [/tʃ/, /dʒ/, /ʃ/, /ʒ/]</li>
+            <li>7 = [/k/, /ɡ/]</li>
+            <li>8 = [/f/, /v/]</li>
+            <li>9 = [/p/, /b/]</li>
+            <li>unassigned = [/h/, /j/, /w/, vowel sounds]</li>
+            </ul>
+            <p>For example to memorize 69 - we should use sounds 6 = [/tʃ/, /dʒ/, /ʃ/, /ʒ/] and 9 = [/p/, /b/] and figure out the word. And we get the word-image for memoriznig - <em>JeeP<em>.</em></em></p>
+            <p>And here are the mnemonic techniques for remembering:</p>
+            <ul>
+            <li>0 = Zero begins with z (and /z/). Upper case S and Z, as well as lower case s and z, have zero vertical strokes each, as with the numeral 0. The alveolar fricatives /s/ and /z/ form a voiceless and voiced pair</li>
+            <li>1 = Upper case T and D, as well as lower case t and d have one vertical stroke each, as with the numeral 1. The alveolar stops /t/ and /d/ form a voiceless and voiced pair, as do the similar-sounding dental fricatives /&theta;/ and /&eth;/, though some variant systems may omit the latter pair</li>
+            <li>2 = Upper case N and lower case n each have two vertical strokes and two points on the baseline</li>
+            <li>3 = Lower case m has three vertical strokes. Both upper case M and lower case m each have three points on the baseline and look like the numeral 3 on its side</li>
+            <li>4 = Four ends with r (and /r/ in rhotic accents)</li>
+            <li>5 = L is the Roman numeral for 50. Among the five digits of one\'s left hand, the thumb and index fingers also form an L</li>
+            <li>6 = Upper case G and lower case g look like the numeral 6 flipped horizontally and rotated 180&deg; respectively. Lower case script j tends to have a lower loop, like the numeral 6. In some serif fonts, upper case CH, SH and ZH each have six serifs. The postalveolar affricates /tʃ/ and /dʒ/ form a voiceless and voiced pair, as do the similar-sounding postalveolar fricatives /ʃ/ and /ʒ/. CHurch has six letters</li>
+            <li>7 = Both upper case K and lower case k look like two small 7s on their sides. In some fonts, the lower-right part of the upper case G looks like a 7. G is also the 7th letter of the alphabet. The velar stops /k/ and /g/ form a voiceless and voiced pair</li>
+            <li>8 = Lower case script f, which tends to have an upper and lower loop, looks like a figure-8. The labiodental fricatives /f/ and /v/ form a voiceless and voiced pair</li>
+            <li>9 = Upper case P and lower case p look like the numeral 9 flipped horizontally. Lower case b looks like the numeral 9 turned 180&deg;. The labial stops /p/ and /b/ form a voiceless and voiced pair</li>
+            <li>unassigned = Vowel sounds, semivowels (/j/ and /w/) and /h/ do not correspond to any number. They can appear anywhere in a word without changing its number value</li>
+            </ul>
+            <p>Click on the star image when you understand the lesson!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_1">
+        <![CDATA[
+            <h2>We begin to memorize the numbers 0-10!</h2>
+            <p>After your understanding of previous lesson core you are ready to memorize numbers!</p>
+            <p>It is necessary to remember names of numbers from 0 to 10.</p>
+            <p>0 - Hose<br />1 - Hat<br />2 - Hen<br />3 - Ham<br />4 - Arrow<br />5 - Whale<br />6 - Shoe<br />7 - Cow<br />8 - Hoof<br />9 - Pie</p>
+            <p>You can <strong><em>configure</em> </strong> figurative codes for yourself - using the system or prepared images.</p>
+            <p>To <strong><em>change</em> </strong>images - click on <strong>Names</strong>.</p>
+            <p>For better visualization, you can <strong><em>view</em></strong> images - the <strong>Images</strong> button.</p>
+            <p>Vividly imagine the images. Play with them in your imagination. Make them colorful, large, detailed.</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_2">
+        <![CDATA[
+            <h2>Memorize numbers from 10 to 20!</h2>
+            <p>Names of numbers from 10 to 20:</p>
+            <p>10 - Daisy<br />11 - Tattoo<br />12 - Tuna<br />13 - Dome<br />14 - Tire<br />15 - Doll<br />16 - Dish<br />17 - Duck<br />18 - Dove<br />19 - Tape</p>
+            <p>Vividly imagine the images. Play with them in your imagination. Make them colorful, large, detailed.</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_3">
+        <![CDATA[
+            <h2>Repeat numbers from 0-20!</h2>
+            <p>Hooray! You remember 20 figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_4">
+        <![CDATA[
+            <h2>Memorize numbers from 20 to 30!</h2>
+            <p>Names of numbers from 20 to 30:</p>
+            <p>20 - Nose<br />21 - Net<br />22 - Onion<br />23 - Nemo<br />24 - Nero<br />25 - Nail<br />26 - Nacho<br />27 - Neck<br />28 - Knife<br />29 - Knob</p>
+            <p>Vividly imagine the images. Play with them in your imagination. Make them colorful, large, detailed.</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_5">
+        <![CDATA[
+            <h2>Memorize numbers from 30 to 40!</h2>
+            <p>Names of numbers from 30 to 40:</p>
+            <p>30 - Mouse<br />31 - Mat<br />32 - Moon<br />33 - Mummy<br />34 - Mower<br />35 - Mule<br />36 - Match<br />37 - Mug<br />38 - Movie<br />39 - Map</p>
+            <p>After you memorize 10 images, click on the star and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_6">
+        <![CDATA[
+            <h2>Repeat numbers from 20-40!</h2>
+            <p>Hooray! You remember 20 more figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_7">
+        <![CDATA[
+            <h2>Numbers from 0-40!</h2>
+            <p>Hooray! You remember 40 figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_8">
+        <![CDATA[
+            <h2>Memorize numbers from 40 to 50!</h2>
+            <p>Names of numbers from 40 to 50:</p>
+            <p>40 - Rose<br />41 - Road<br />42 - Rain<br />43 - Room<br />44 - Aurora<br />45 - Rail<br />46 - Roach<br />47 - Rag<br />48 - Roof<br />49 - Rope</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_9">
+        <![CDATA[
+            <h2>Memorize numbers from 50 to 60!</h2>
+            <p>Names of numbers:</p>
+            <p>50 - Louse<br />51 - Lady<br />52 - Lion<br />53 - Lime<br />54 - Lorry<br />55 - Lily<br />56 - Leech<br />57 - Log<br />58 - Lava<br />59 - Lip</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_10">
+        <![CDATA[
+            <h2>Repeat numbers from 40-60!</h2>
+            <p>Hooray! You remember 20 more figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_11">
+        <![CDATA[
+            <h2>Numbers 0-60!</h2>
+            <p>Hooray! You remember 60 figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_12">
+        <![CDATA[
+            <h2>Memorize numbers from 60 to 70!</h2>
+            <p>Names of numbers:</p>
+            <p>60 - Cheese<br />61 - Sheet<br />62 - Chain<br />63 - Jam<br />64 - Cherry<br />65 - Jello<br />66 - Judge<br />67 - Chalk<br />68 - Chef<br />69 - Ship</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_13">
+        <![CDATA[
+            <h2>Memorize numbers from 70 to 80!</h2>
+            <p>Names of numbers:</p>
+            <p>70 - Gas<br />71 - Cat<br />72 - Can<br />73 - Comb<br />74 - Car<br />75 - Coal<br />76 - Cage<br />77 - Coke<br />78 - Cave<br />79 - Cube</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_14">
+        <![CDATA[
+            <h2>Repeat numbers from 60-80!</h2>
+            <p>Hooray! You remember 20 more figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_15">
+        <![CDATA[
+            <h2>Numbers 0-80!</h2>
+            <p>Hooray! You remember 80 figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_16">
+        <![CDATA[
+            <h2>Memorize numbers from 80 - 90!</h2>
+            <p>Names of numbers:</p>
+            <p>80 - Vase<br />81 - Video<br />82 - Fan<br />83 - Foam<br />84 - Fire<br />85 - File<br />86 - Veggie<br />87 - Fog<br />88 - Fife<br />89 - Fb</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_17">
+        <![CDATA[
+            <h2>Memorize numbers from 90 - 100!</h2>
+            <p>Names of numbers:</p>
+            <p>90 - Bus<br />91 - Bat<br />92 - Pen<br />93 - Opium<br />94 - Bear<br />95 - Bell<br />96 - Bush<br />97 - Book<br />98 - Beef<br />99 - Pipe</p>
+            <p>After you memorize 10 images, click on the asterisk and try to remember 10 numbers using these images and the Cicero method.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_18">
+        <![CDATA[
+            <h2>Repeat numbers from 80-100!</h2>
+            <p>Hooray! You remember 20 more figurative codes. It is necessary to consolidate the past.</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <string name="lesson_numbers_19">
+        <![CDATA[
+            <h2>Final repeat (0-100)!</h2>
+            <p>Hooray! You remember 100 figurative codes. You did it! Congrats! It\'s awesome!</p>
+            <p>Remember 20 numbers with the Cicero method and learned images!</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+    <!-- Tips -->
+
+    <string name="first_start_info">
+         <![CDATA[
+             <h3>About the app</h3>
+             <p>This application will familiarize you with the basic mnemonic systems and provide an effective and flexible platform for developing the ability to memorize <b>numbers</b>, <b>words</b> and <b>cards</b>.</p>
+             <p>To understand the mechanism of the memory systems work - <b>complete the training</b> and only <b>after</b> that start memorizing.</p>
+             <p>Nothing will give you instant results. This requires a lot of work and training. This application will help you with this. Good luck!</p>
+         ]]>
+    </string>
+
+    <string name="result_info">
+        <![CDATA[
+            <h3>How is the memory index considered</h3>
+            <p><span style = "text-decoration: underline;"> <em>Memo Index</em> </span> [<em>MI</em>] = (<em> number_of_correct_responses </em> + ( <em> number_of_memorized_numbers </em> - <em> elapsed_time / 6) </em> </p>
+            <p><em> Explanation.</em></p>
+            <p>Since the average time of 1 number memorizing = 6 seconds, when memorizing 10 numbers in 60 seconds (10 * 6), we obtain a memory index of 10. This corresponds to and displays the person\'s ability to memorize information.</p>
+            <p>Accordingly, if a person remembers 10 numbers in 120 seconds (12 * 10), and 12 seconds is the maximum time per 1 number remembering, then the coefficient will be 0.</p>
+            <p>If you memorized faster than the average 60 seconds, say, 30 seconds, then the coefficient will be 15, which encourages quick memorization. </p>
+        ]]>
+     </string>
+
+    <string name="result_pi_info">
+        <![CDATA[
+            <h3>How the index is calculated when memorizing pi digits:</h3>
+            <p><em>Memorization index</em> = <em>number of correct answers</em> multiplied by <em>M-factor</em>.</p>
+            <p><em>M-factor</em> = <em>number of correct answers</em> / <em>total remembered</em></p>
+        ]]>
+     </string>
+
+    <!-- Коряво-->
+    <string name="prestart_words_info">
+         <![CDATA[
+            <h3>Memorizing words</h3>
+            <p>You will remember nouns from the dictionary</p>
+            <p>During answering you need to memorize the words <ins> sequence</ins>.</p>
+         ]]>
+     </string>
+
+    <string name="prestart_numbers_info">
+         <![CDATA[
+            <h3>Memorizing numbers</h3>
+            <p>In training mode, text/image hints are available. </p>
+            <p>There is a mode <i> for entering numbers </i> and <i> for choose from a list </i>.</p>
+            <p>You also can memorize prepared images for numbers, and during answering - enter numbers (read the relevant sections in theory).</p>
+            <p>See more info in Tutorial.</p>
+         ]]>
+    </string>
+
+    <string name="prestart_deck_info">
+        <![CDATA[
+            <h3>Memorizing cards</h3>
+            <p>In training mode, text/image hints are possible.</p>
+            <p>Complete the training to learn how to successfully remember such information.</p>
+        ]]>
+    </string>
+
+    <string name="prestart_pi_info">
+        <![CDATA[
+            <h3>Memorizing Pi digits</h3>
+            <p>In training mode, text/image hints are possible.</p>
+            <p>Complete the training to learn how to successfully remember such information.</p>
+        ]]>
+    </string>
+
+    <!-- Плохо -->
+    <string name="prestart_words_4bk_info">
+        <![CDATA[
+            <h3> CWI (custom word\'s images) memorization mode </h3>
+            <p> Number Memorization Mode for Trainees! (Go to Tutorial)</p>
+            <p> Remember images and translate into <ins> numbers</ins>! </p>
+        ]]>
+    </string>
+
+    <string name="prestart_figures_info">
+         <![CDATA[
+            <h3> Memorizing figures</h3>
+            <p> Figures mode gives you opportunity to sharp your skills in memorizing geometric figures.</p>
+         ]]>
+    </string>
+
+    <!-- Плохо -->
+    <string name="strings_set_deck_info"><![CDATA[
+
+            <h3> Deck images </h3>
+
+            <p> Here you can watch and change the names of card tips. <br>
+            Initially given the name of the system, which are built on the principle: </p>
+            <p> Name = Suit + Value <br>
+            For example - 2 of clubs = [suit = clubs = С] + [value = 2 = [N] = [C, N] = the word CoiN </p>
+
+            <p>Suit:<br>
+            <br>• Hearts - "H"
+            <br>• Spades - "S"
+            <br>• Clubs - "C"
+            <br>• Diamonds - "D"</p>
+
+            <p>Because there are 13 cards of each suit we have next system to avoid memorizing mistakes:</p>
+
+            <p>Values (cards):<br>
+
+            <br>• 10 = 0 = [ s, z ]
+            <br>• Ace = [ t, d ] like 1
+            <br>• 2 = [ n ]
+            <br>• 3 = [ m ]
+            <br>• 4 = [ r ]
+            <br>• 5 = [ L ]
+            <br>• 6 = [ g / sh ]
+            <br>• 7 = [ k ]
+            <br>• 8 = [ f, v ]
+            <br>• 9 = [ p, b ]
+            <br>• Jack = suit name
+            <br>• Queen = rhyme with queen
+            <br>• King = rhyme with king</p>
+            <p>There a variety of different systems to memorize deck of card. You can use this one or create your own based on your taste.</p>
+            <p>For extra information go to Tutorial.</p>
+
+    ]]></string>
+
+    <string name="strings_set_numbers_info">
+        <![CDATA[
+            <h3>Assigning sounds to digits</h3>
+            <p>Here you can see or change names of tips for numbers.</p>
+            <p>Each numeral is associated with one or more consonants. Vowels and the consonants w, h, and y are ignored. These can be used as "fillers" to make sensible words from the resulting consonant sequences. Mapping:</p>
+
+            <p>• 0 = [/s/, /z/]
+            <br>• 1 = [/t/, /d/]
+            <br>• 2 = [/n/]
+            <br>• 3 = [/m/]
+            <br>• 4 = [/r/]
+            <br>• 5 = [/l/]
+            <br>• 6 = [/tʃ/, /dʒ/, /ʃ/, /ʒ/]
+            <br>• 7 = [/k/, /ɡ/]
+            <br>• 8 = [/f/, /v/]
+            <br>• 9 = [/p/, /b/]
+            <br>• unassigned = [/h/, /j/, /w/, vowel sounds]</p>
+
+            <p>For example to memorize 69 - we should use sounds 6 = [/tʃ/, /dʒ/, /ʃ/, /ʒ/] and 9 = [/p/, /b/] and figure out the word. And we get the word-image for memorizing - <i>JeeP<i>.</p>
+
+            <p>And here it is mnemonic for remembering:<br>
+
+            <br>• 0 = Zero begins with z (and /z/). S, Z have zero vertical strokes each, as with the numeral 0.
+            <br>• 1 = T and D have one vertical stroke each, as with the numeral 1.
+            <br>• 2 = N has two vertical strokes and two points on the baseline
+            <br>• 3 = Lower case m has three vertical strokes. Both upper case M and lower case m each have three points on the baseline.
+            <br>• 4 = Four ends with r (and /r/ in rhotic accents)
+            <br>• 5 = L is the Roman numeral for 50.
+            <br>• 6 = G looks like the numeral 6 flipped horizontally and rotated 180° respectively. Lower case script j tends to have a lower loop, like the numeral 6.
+            <br>• 7 = K looks like two small 7s on their sides. G is the 7th letter of the alphabet.
+            <br>• 8 = Lower case script f, which tends to have an upper and lower loop, looks like a figure-8.
+            <br>• 9 = P looks like the numeral 9 flipped horizontally. Lower case b looks like the numeral 9 turned 180°.
+            <br>• unassigned = Vowel sounds, semivowels (/j/ and /w/) and /h/ do not correspond to any number. They can appear anywhere in a word without changing its number value</br>
+
+            <p>For extra information go to Tutorial.</p>
+         ]]>
+    </string>
+
+    <string name="is_memorize_assigned_to_numbers_words">Memorize prepared words</string>
+    <string name="is_memorize_assigned_to_numbers_words_tip">
+        <![CDATA[
+            <h3>For advanced users</h3>
+            <p>You will memorize prepared images for numbers, and during answering - enter numbers.</p>
+            <p>To understand how this works - read the relevant sections in theory.</p>
+        ]]>
+    </string>
+
+    <string name="training_or_exam_tip">
+        <![CDATA[
+            <h3>Training mode</h3>
+            <p>In training mode text/image hints are available. Successful results won\'t be recorded in the Leaderboards.
+            <p>If training mode is off, it\'ll be exam mode. No hints will be available, and successful results will be recorded in the Leaderboard</p>
+        ]]>
+    </string>
+
+    <!--    <p> • Design changes. Fixed minor bugs. </p>-->
+    <!--    <p> • Design improvements. Fixed minor bugs. </p>-->
+
+    <!--    <h3>In the new version: </h3>-->
+    <!--    <p>• Now you can continue memorization after interruption. Just click save option during memorizing and after next attempt to start memorization you will have a choice between continue interrupted memorization or start a new one.</p>-->
+    <!--    <p>• Fixed a bug when memorizing a deck of cards.</p>-->
+    <!--    <p>• Design improvements. Fixed bugs.</p>-->
+    <!--    ]]>-->
+
+    <!--    <h3>In the new version: </h3>-->
+    <!--    <p>• Now in the settings you can configure notifications that will appear if you have not logged into the application for some time.</p>-->
+    <!--    <p>• Design improvements. Translation bug fixes.</p>-->
+
+    <string name="in_new_version">
+        <![CDATA[
+            <h3>In the new version: </h3>
+            <p>• Design improvements. Fixed bugs. </p>
+            <p>• New grid mode for Home memorization cards visualization. </p>
+        ]]>
+    </string>
+
+    <string name="is_to_show_in_new_version_info" translatable="false">yes</string>
+
+</resources>
