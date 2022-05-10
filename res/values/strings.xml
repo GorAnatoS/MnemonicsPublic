@@ -19,7 +19,6 @@
     <string name="how_many_n_remember">How much to memorize</string>
     <string name="auto_next">Timer transition</string>
     <string name="time_per_one">time per 1 obj (sec):</string>
-    <string name="memorize_only_one_deck">Memorize only one deck</string>
 
     <string name="go">Go!</string>
     <string name="number_range">"Range of numbers"</string>
@@ -90,11 +89,20 @@
     <string name="drop_statistics">Do you want to reset statistics?</string>
     <string name="settings">Settings</string>
 
-    <!--    cards-->
-    <string name="suit_club_day_theme" translatable="false">♣</string>
-    <string name="suit_diamond_day_theme" translatable="false">♦</string>
-    <string name="suit_spade_day_theme" translatable="false">♠</string>
-    <string name="suit_heart_day_theme" translatable="false">♥</string>
+    <!-- cards suit-->
+    <string name="suit_club" translatable="false">♣</string>
+    <string name="suit_diamond" translatable="false">♦</string>
+    <string name="suit_spade" translatable="false">♠</string>
+    <string name="suit_heart" translatable="false">♥</string>
+
+    <string name="select_suits">Select suits</string>
+    <string name="no_selected_suits">No selected suits</string>
+    <string name="repeating_cards">Repeating cards</string>
+
+    <string name="clubs">Club</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="spades">Spades</string>
+    <string name="hearts">Hearts</string>
 
     <string name="card_10" translatable="false">10</string>
     <string name="card_2" translatable="false">2</string>
@@ -133,6 +141,9 @@
     <string name="title_result_fragment">Result</string>
     <string name="title_before_answer_fragment">Answering</string>
     <string name="title_donut_fragment">Support us</string>
+
+    <string name="prestart_common">Common settings</string>
+    <string name="prestart_specific">Specific settings</string>
 
     <!-- notifications -->
     <string name="notification_title">@string/mnemonics</string>
@@ -209,6 +220,7 @@
     <string name="statistics_toast">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec
         \nCoefficient: %4$.2f\nType: %5$s\nIs training mode: %6$s\nIs good result: %7$s</string>
     <string name="statistics_toast_old">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec\nCoefficient: %4$.2f</string>
+
 
     <string name="flop">The attempt has failed</string>
     <string name="tv_donut">"Dear users!\n\nThank you for your interest in Mnemonics, deliberately remains free, without any functionality restrictions and monetization advertising.\n\nIt is a pet project of a small team. So any help would be very useful for further Mnemonics development!"</string>
@@ -316,6 +328,10 @@
     <string name="title_cards_in_deck">Deck of</string>
     <string name="deck_36_cards">36 cards</string>
     <string name="deck_52_cards">52 cards</string>
+
+    <string name="should_be_less_or_equal_to_size_of_deck">The number of cards to memorize must be ≤ to size of the deck</string>
+    <string name="select_suits_for_memorization">Select suits for memorization</string>
+    <string name="wrond_input_for_selected_suits">Wrong input for selected suits</string>
 
     <string name="statistics_empty_data">No records of selected type in database.\n\nChoose other chips or take the appropriate training or exam for analytics to appear.</string>
 
@@ -1058,8 +1074,23 @@
     <string name="training_or_exam_tip">
         <![CDATA[
             <h3>Training mode</h3>
-            <p>In training mode text/image hints are available. Successful results won\'t be recorded in the Leaderboards.
+            <p>In training mode text/image hints are available. Successful results won\'t be recorded in the Leaderboards. </p>
             <p>If training mode is off, it\'ll be exam mode. No hints will be available, and successful results will be recorded in the Leaderboard</p>
+        ]]>
+    </string>
+
+    <string name="training_or_exam_tip_for_cards">
+        <![CDATA[
+            <h3>For cards</h3>
+            <p>You can select specific suits for memorization training</p>
+        ]]>
+    </string>
+
+    <string name="only_one_deck_tip">
+        <![CDATA[
+            <h3>Repeating cards</h3>
+                <p>- In exam mode, the maximum number of cards is equal to the size of the deck</p>
+                <p>- In the training mode, the selected suits are taken into account</p>
         ]]>
     </string>
 
@@ -1079,8 +1110,9 @@
     <string name="in_new_version">
         <![CDATA[
             <h3>In the new version: </h3>
+            <p>• Added new settings for memorizing cards.</p>
+            <p>• Now you can memorize up to 9999 objects instead of 1000.</p>
             <p>• Design improvements. Fixed bugs. </p>
-            <p>• New grid mode for Home memorization cards visualization. </p>
         ]]>
     </string>
 

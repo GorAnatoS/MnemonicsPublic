@@ -6,7 +6,6 @@
     <string name="how_many_n_remember">Сколько запоминать</string>
     <string name="auto_next">Переход по таймеру</string>
     <string name="time_per_one">на 1 объект (сек):</string>
-    <string name="memorize_only_one_deck">"Только одна колода \t\t"</string>
 
     <!--  Экран настроек -->
     <string name="application_settings">Настройки приложения</string>
@@ -94,6 +93,16 @@
     <string name="drop_statistics">Вы хотите сбросить статистику?</string>
     <string name="tv_donut">Уважаемые пользователи!\n\nБлагодарим вас за интерес к данному проекту, который сознательно остается бесплатным, без каких либо ограничений функциональности и встроенной рекламы для монетизации.\n\nУ нас маленькая команда, которая может уделять развитию проекта только свое свободное время.\n\nЛюбая помощь будет очень полезна. Помогите и дальше развивать проект!</string>
 
+    <!-- Cards -->
+    <string name="select_suits">Выбрать масти</string>
+    <string name="no_selected_suits">Нет выбранных мастей</string>
+    <string name="repeating_cards">Повторяющиеся карты</string>
+
+    <string name="clubs">Трефы</string>
+    <string name="diamonds">Бубны</string>
+    <string name="spades">Пики</string>
+    <string name="hearts">Черви</string>
+
     <!-- title fragment`s-->
     <string name="title_ans_exam_choosing_fragment">Выбираем ответ</string>
     <string name="title_ans_exam_typing_fragment">Вводим ответ</string>
@@ -130,6 +139,9 @@
     <string name="name_of_word">слово</string>
     <string name="name_of_figure">фигура</string>
     <!--    <string name="name_of_pi">пи</string>-->
+
+    <string name="prestart_common">Общие настройки</string>
+    <string name="prestart_specific">Специфические настройки</string>
 
     <string name="continueInterruptedMemorizingTitle">Ваше предыдущее запоминание (режим - %1$s) было прервано.</string>
     <string name="continueInterruptedMemorizingMessage">Если вы хотите продолжить - зайдите в соответствующую категорию и начните запоминание.\n\nЛибо вы можете начать новое запоминание.</string>
@@ -279,6 +291,10 @@
     <string name="deck_52_cards">52 карты</string>
     <string name="title_cards_in_deck">В колоде:</string>
 
+    <string name="should_be_less_or_equal_to_size_of_deck">Количество карт для запоминания должно быть ≤ чем размер колоды</string>
+    <string name="select_suits_for_memorization">Выберите масти для запоминания</string>
+    <string name="wrond_input_for_selected_suits">Неверный ввод для выбранных мастей</string>
+
     <string name="chart_value_selected_out_of">из</string> <!-- Слова: 1 ИЗ 5-->
 
     <string name="statistics_empty_data">Данные отсутствуют. Пройдите соответствующую тренировку или экзамен для появления аналитики.</string>
@@ -411,7 +427,7 @@
             <ul>
             <li>четко различать первый и второй образ пары</li>
             <li>выстроить единообразие запоминания образов - второй образ помещать сверху от первого, в правой части первого, либо внутри первого</li>
-            <li>образы в парах должны быть примерно одинакового размера</li>
+            <li>образы в парах должны быть примерно одинакового размера</li>Специфические настройкис
             <li>не воображать образы отдельно, а стараться создать между ними контакт.</li>
             </ul>
             <p>Усложняем задание. Попробуйте теперь запомнить <strong>15</strong> слов с помощью данного метода.</p>
@@ -914,8 +930,23 @@
     <string name="training_or_exam_tip">
         <![CDATA[
             <h3> Режим обучения </h3>
-            <p> В режиме обучения доступны текстовые/графические подсказки. Успешный результат не будет занесен в таблицу лидеров.
+            <p> В режиме обучения доступны текстовые/графические подсказки. Успешный результат не будет занесен в таблицу лидеров. </p>
             <p> Если режим обучения выключен, то это режим экзамена. Никаких подсказок нет. Успешный результат будет записан в таблице лидеров.</p>
+        ]]>
+    </string>
+
+    <string name="training_or_exam_tip_for_cards">
+        <![CDATA[
+            <h3>Для карт</h3>
+            <p>Вы можете выбрать конкретные масти для тренировки</p>
+        ]]>
+    </string>
+
+    <string name="only_one_deck_tip">
+        <![CDATA[
+            <h3>Повторяющиеся карты</h3>
+            <p>- В режиме экзамена максимальное число карт равно размеру колоды</p>
+            <p>- В режиме тренировки учитываются выбранные масти</p>
         ]]>
     </string>
 
@@ -931,8 +962,9 @@
     <string name="in_new_version">
         <![CDATA[
            <h3>В новой версии: </h3>
+              <p>• Добавлены новые настройки при запоминании карт.</p>
+              <p>• Теперь вы можете запомнить до 9999 объектов вместо 1000.</p>
               <p>• Улучшения дизайна. Исправление багов.</p>
-              <p>• Новый режим для визуализации карточек запоминания на Домашнем экране.</p>
         ]]>
     </string>
 

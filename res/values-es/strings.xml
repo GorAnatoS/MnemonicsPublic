@@ -7,7 +7,6 @@
     <string name="how_many_n_remember">Cuanto recordar</string>
     <string name="auto_next">Transición del temporizador</string>
     <string name="time_per_one">para 1 objeto (seg):</string>
-    <string name="memorize_only_one_deck">Solo una baraja</string>
 
     <string name="go">¡Vamos!</string>
     <string name="number_range">Rango de números</string>
@@ -20,6 +19,16 @@
     <string name="choose_figure">Seleccione la figura:</string>
     <string name="no_exam_data">No hay datos. Pase el examen.</string>
     <string name="settings">Ajustes</string>
+
+    <!-- Cards -->
+    <string name="select_suits">Elige trajes</string>
+    <string name="no_selected_suits">Ningún traje seleccionado</string>
+    <string name="repeating_cards">Tarjetas repetitivas</string>
+
+    <string name="clubs">Tréboles</string>
+    <string name="diamonds">Diamantes</string>
+    <string name="spades">Picas</string>
+    <string name="hearts">Corazones</string>
 
     <!--  Экран настроек -->
     <string name="application_settings">Configuraciones de la aplicación</string>
@@ -104,6 +113,9 @@
     <string name="what_word_was">¿Qué palabra era?</string>
     <string name="what_number_was">¿Cuál era el número?</string>
     <string name="to_next_fragment">A continuación</string>
+
+    <string name="prestart_common">Ajustes comunes</string>
+    <string name="prestart_specific">Ajustes específicos</string>
 
     <string name="prestart_pi_wrong_settings">Error de preparación de memorización. Compruebe que todos los parámetros son correctos.</string>
 
@@ -254,6 +266,10 @@
     <string name="title_cards_in_deck">Baraja de</string>
     <string name="deck_36_cards">36 naipes</string>
     <string name="deck_52_cards">52 naipes</string>
+
+    <string name="should_be_less_or_equal_to_size_of_deck">El número de cartas a memorizar debe ser ≤ al tamaño de la baraja</string>
+    <string name="select_suits_for_memorization">Seleccionar trajes para memorizar</string>
+    <string name="wrond_input_for_selected_suits">Entrada incorrecta para trajes seleccionados</string>
 
     <string name="chart_value_selected_out_of">de</string> <!-- Слова: 1 ИЗ 5-->
 
@@ -936,8 +952,23 @@
     <string name="training_or_exam_tip">
         <![CDATA[
             <h3>Modo de entrenamiento </h3>
-            <p>En el modo de entrenamiento, se encuentran disponibles sugerencias de texto/imagen. El resultado exitoso no se registrará en la tabla de clasificación.
+            <p>En el modo de entrenamiento, se encuentran disponibles sugerencias de texto/imagen. El resultado exitoso no se registrará en la tabla de clasificación. </p>
             <p>Si el modo de entrenamiento está desactivado, entonces es el modo de examen. Las sugerencias no están disponibles. El resultado exitoso se registrará en la tabla de clasificación. </p>
+        ]]>
+    </string>
+
+    <string name="training_or_exam_tip_for_cards">
+        <![CDATA[
+            <h3>Para tarjetas</h3>
+            <p>Puedes seleccionar trajes específicos para el entrenamiento de memorización</p>
+        ]]>
+    </string>
+
+    <string name="only_one_deck_tip">
+        <![CDATA[
+            <h3>Tarjetas repetitivas</h3>
+            <p>- En modo examen, el número máximo de cartas es igual al tamaño de la baraja</p>
+            <p>- En el modo de entrenamiento, se tienen en cuenta los trajes seleccionados</p>
         ]]>
     </string>
 
@@ -950,8 +981,9 @@
     <string name="in_new_version">
         <![CDATA[
             <h3>En la nueva versión: </h3>
+            <p>• Se agregaron nuevas configuraciones para memorizar tarjetas.</p>
+            <p>• Ahora puedes memorizar hasta 9999 objetos en lugar de 1000.</p>
             <p>• Diseño mejorado. Errores corregidos. </p>
-            <p>• Nuevo modo de visualización de tarjetas de memorización. </p>
          ]]>
      </string>
 
