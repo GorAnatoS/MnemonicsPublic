@@ -170,6 +170,8 @@
     <string name="memorize">Memorizar</string>
     <string name="type_it">escribe</string>
     <string name="lesson">Lección</string>
+
+    <string name="intro_health_and_mnemonics">¿Cómo afecta positivamente Mnemonics a tu cerebro?</string>
     <string name="about_mnemonics">Acerca de los mnemónicos</string>
     <string name="introduction">Prefacio</string>
     <string name="mnemonics">Mnemotécnica</string>
@@ -276,8 +278,8 @@
     <string name="method_of_loci">El método de loci</string>
     <string name="matreshka">Matryoshka</string>
     <string name="chain">Método de enlace</string>
-    <string name="numbers_remembering_lessons_title">Memorizando números I</string>
-    <string name="numbers_remembering_lessons_title2">Memorizando números II</string>
+    <string name="tutorial_numbers_title">Memorizando números I</string>
+    <string name="tutorial_numbers_title2">Memorizando números II</string>
     <string name="matreshka_method_n">Memoriza %1$d palabras con el método Matryoshka</string>
     <string name="memory_palace_method_n">Memoriza %1$d palabras con el método de loci</string>
     <string name="chain_method_n">Memoriza %1$d palabras con el método de enlace</string>
@@ -304,6 +306,8 @@
     <string name="from_90_to_100">Números de entrenamiento en el rango de 90 a 100</string>
     <string name="repeat_from_80_to_100">Repetir 80–100</string>
     <string name="repeat_from_0_to_100">¡Repetición final de 0 a 100!</string>
+
+    <string name="pi_lesson_position_0">cómo memorizar dígitos pi</string>
 
     <string name="how_many_pi_digits_in_one_item">Dígitos π en una celda</string>
     <string name="from_what_position_to_memorize">Desde qué posición memorizar</string>
@@ -366,6 +370,29 @@
             <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Ejemplo de recordar tarjetas</a>
             <h2>¿Qué puedes aprender?</h2>
             <p>Paso a paso, dominas las principales técnicas de mnemotécnica y obtienes la habilidad de memorizar mucha información en tu vida. ¡Buena suerte!</p>
+        ]]>
+    </string>
+
+    <!--    Contour-->
+    <string name="lesson_intro_4">
+        <![CDATA[
+            <h1>¿Por qué mnemónicos?</h1>
+            <h2>¿Qué son las técnicas mnemotécnicas?</h2>
+            <p>Las técnicas mnemotécnicas son formas de ayudarte a memorizar una frase o idea con patrones. Las técnicas mnemotécnicas pueden incluir canciones, poemas, rimas, esquemas, imágenes y acrónimos. Los mnemotécnicos le dan significado a algo ordinario para que sea más memorable cuando intentas recordarlo. Esta técnica es útil para almacenar información tanto en la memoria a corto como a largo plazo.</p>
+            <h2>¿Cómo afecta positivamente Mnemonics a tu cerebro?</h2>
+            <p>Investigaciones anteriores han demostrado que el entrenamiento mnemotécnico crea nuevas conexiones en tu cerebro y cambia la organización del cerebro. ¿Alguna vez se preguntó cómo los niños prodigio y los genios pueden llegar a la cima de los campos de la medicina y las matemáticas a la edad de 10 años? Bueno, la investigación muestra que la razón de sus habilidades se debe principalmente a sus capacidades mentales, y que sus cerebros están organizados de maneras específicas para aumentar sus recuerdos a corto y largo plazo. Sus cerebros están conectados de manera única y el entrenamiento mnemotécnico ayuda a nuestros cerebros a reorganizar su red funcional para permitir un rendimiento superior de la memoria. En esencia, estamos moldeando nuestros cerebros al molde de los genios.</p>
+            <h2>¿Quién debería usar mnemónicos?</h2>
+            <p>Mnemonics tiene una amplia variedad de aplicaciones, desde ayudar a los estudiantes antes de un examen, combatir enfermedades mentales o incluso ayudar a los niños a continuar con el desarrollo cognitivo a pesar de la desnutrición.</br></br>
+            El entrenamiento mnemotécnico en personas mayores con riesgo de demencia ha mostrado aumentos en la integración del procesamiento de la memoria en el cerebro. Aquellos que son diagnosticados con Alzheimer temprano también muestran una mejora en la memoria. En un estudio, las personas con deterioro cognitivo leve (MCI, por sus siglas en inglés) mostraron una mejora del 33 % en las puntuaciones en una evaluación de la memoria al aprender a usar correctamente la mnemotécnica.</br></br>
+            La resonancia magnética nuclear (RMN) también reveló que el uso de mnemónicos ayudó a aumentar la actividad en las regiones del cerebro asociadas con el procesamiento del lenguaje, las habilidades de aprendizaje y la memoria espacial.</br></br>
+            Por último, en muchos países donde la desnutrición es un problema, la mnemotécnica puede ayudar a mantener el desarrollo cognitivo. Se ha demostrado que la desnutrición tiene grandes efectos en la memoria inmediata de los individuos y que los niños desnutridos incurren en serios problemas en el desarrollo cognitivo si padecen desnutrición crónica. La mnemotécnica se puede utilizar como una herramienta en estos casos, para continuar estimulando el cerebro y garantizar que no se pierdan las vías neuronales esenciales.</p>
+            <p>Fuentes utilizadas en este artículo y lugares para encontrar más información:</p>
+            <ul>
+            <li><a href="https://www.livescience.com/35572-memory-tricks-improve-learning-early-alzheimers.html">https://www.livescience.com/35572-memory-tricks -mejorar-el-aprendizaje-del-alzheimer-temprano.html</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5651360/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5651360/ </a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5439266/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5439266/ </a></li>
+            <li><a href="https://www.indeed.com/consejos-profesionales/desarrollo-profesional/cómo-utilizar-técnicas-mnemotécnicas">https://www.indeed.com/consejos-profesionales /desarrollo-de-carrera/como-usar-técnicas-mnemotécnicas</a></li>
+            </ul>
         ]]>
     </string>
 
@@ -787,6 +814,41 @@
         ]]>
     </string>
 
+    <string name="lesson_pi_0">
+        <![CDATA[
+            <h1>Memorizando Pi</h2>
+            <p>El proceso de memorizar los dígitos de pi o π se denomina pifilología. La mayor cantidad de dígitos de pi jamás recordada es la asombrosa cantidad de 100 000, es decir, cien mil dígitos.</p>
+            <p>El sitio web <a href="http://www.pi-world-ranking-list.com">www.pi-world-ranking-list.com</a> proporciona una clasificación de las personas que memorizaron correctamente conjunto de dígitos de pi, desde varios cientos hasta decenas de miles de dígitos.</p>
+            <p>Ahora veamos los diferentes métodos para recordar pi.</p>
+            <p>1) La primera forma involucra el uso de mnemotecnia de oraciones. La idea aquí es contar el número de letras en cada palabra en orden. Esto se ilustra mejor con un ejemplo:</p>
+            <p>\"¿Qué? ¿Y cómo π reúne infinidad de cifras?\"</p>
+            <p>Aquí la primera palabra consta de 3 letras. Entonces, el primer dígito de pi es 3. De manera similar, la segunda palabra tiene 1 letra, por lo que el segundo dígito de pi es 1. Continuando, obtenemos el valor de pi, que es 3.1415926, de la oración anterior.
+            <p>El método anterior para memorizar pi es el más simple y fácil. Todo lo que necesitas recordar son oraciones. Vamos, pruébalo, estoy seguro de que te divertirás. ¡Siempre puedes crear tus propias sugerencias!</p>
+            <p>2) El segundo método suele implicar el uso de la regla mnemotécnica del sistema principal, también conocida como sistema numérico fonético.
+            Esta técnica se considera clásica. Además, puede memorizar muchos más dígitos con este método que con el método mnemotécnico de oraciones.
+            Aquí hay otra explicación de un verdadero campeón de la memoria: <a href="https://www.youtube.com/watch?v=mI96Ph-yHcA">explicación</a> </p>
+            <p>Aquí asignaremos diferentes sonidos para cada número del 0 al 9. Estos sonidos serán los siguientes:</p>
+             <ul>
+            <li>0 - R;</li>
+            <li>1 - T,D;</li>
+            <li>2 - N,Ñ;</li>
+            <li>3 - M;</li>
+            <li>4 - C;</li>
+            <li>5 - L;</li>
+            <li>6 - S,Z;</li>
+            <li>7 - F;</li>
+            <li>8 - Ch, G, J;</li>
+            <li>9 - B,V,P.</li>
+            </ul>
+            <p> Memorizar algunas letras por número está hecho para una mayor variabilidad al crear imágenes y palabras. </p>
+
+            <p>Memorizar dos letras por número está hecho para una mayor variabilidad al crear imágenes y palabras.</p>
+            <p>Por ejemplo, para memorizar el 69, deberíamos usar sonidos 6 = [S,Z] y 9 = [ B, V, P] y descifrar la palabra. Y obtenemos la imagen de palabra para memorizar - <i>SaPo<i>.</p>
+            <p> ¡Haga clic en la estrella cuando aprenda su lección! </p>
+
+            <p>También puedes encontrar trucos más útiles en otro tutorial. Consulte "Memory Palace" y "Memorización de números".</p>
+        ]]>
+    </string>
     <!-- Tips -->
 
     <string name="first_start_info">"
@@ -981,8 +1043,8 @@
     <string name="in_new_version">
         <![CDATA[
             <h3>En la nueva versión: </h3>
-            <p>• Se agregaron nuevas configuraciones para memorizar tarjetas.</p>
-            <p>• Ahora puedes memorizar hasta 9999 objetos en lugar de 1000.</p>
+            <p>• Se agregó teoría para memorizar los dígitos de pi y se agregó un capítulo sobre mnemotecnia y salud.</p>
+            <p>• La configuración se movió a la pantalla principal.</p>
             <p>• Diseño mejorado. Errores corregidos. </p>
          ]]>
      </string>

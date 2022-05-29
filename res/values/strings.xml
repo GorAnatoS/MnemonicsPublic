@@ -217,13 +217,13 @@
     <string name="nums_names_are_reset">The names of the numbers have been reset to the original.</string>
     <string name="thanks_for_donation">Thank you for your contribution to the development of the application!</string>
     <string name="lesson_flop">Failure! You will succeed, do not bother! Take a break and try the lesson again. Good luck!</string>
-    <string name="statistics_toast">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec
-        \nCoefficient: %4$.2f\nType: %5$s\nIs training mode: %6$s\nIs good result: %7$s</string>
+    <string name="statistics_toast">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec\nCoefficient: %4$.2f\nType: %5$s\nIs training mode: %6$s\nIs good result: %7$s</string>
     <string name="statistics_toast_old">Result:\nDate: %1$s\nCorrect: %2$s\nFor 1 object: %3$s sec\nCoefficient: %4$.2f</string>
-
 
     <string name="flop">The attempt has failed</string>
     <string name="tv_donut">"Dear users!\n\nThank you for your interest in Mnemonics, deliberately remains free, without any functionality restrictions and monetization advertising.\n\nIt is a pet project of a small team. So any help would be very useful for further Mnemonics development!"</string>
+
+    <string name="intro_health_and_mnemonics">How does Mnemonics positively affect your brain?</string>
     <string name="about_mnemonics">About Mnemonics</string>
     <string name="chain">Link method</string>
     <string name="matreshka">Russian doll</string>
@@ -342,8 +342,6 @@
     <string name="how_to_do_it">How to remember numbers?</string>
     <string name="from_10_to_20">Training numbers in range 10–20</string>
     <string name="cards_names_are_reset">Card names have been reset to the origin</string>
-    <string name="numbers_remembering_lessons_title">Numbers memorizing I</string>
-    <string name="numbers_remembering_lessons_title2">Numbers memorizing II</string>
     <string name="repeat_all">Repeat all</string>
     <string name="names">Names</string>
     <string name="from_0_to_10">Memorize numbers in range 0 to 10</string>
@@ -362,6 +360,13 @@
     <string name="from_90_to_100">Training numbers in range 90 to 100</string>
     <string name="repeat_from_80_to_100">Repeat 80 – 100</string>
     <string name="repeat_from_0_to_100">Final repeat - from 0 to 100!</string>
+
+    <string name="pi_lesson_position_0">How to memorize pi digits</string>
+
+    <!--    Lesson group title -->
+    <string name="tutorial_numbers_title">Numbers memorizing I</string>
+    <string name="tutorial_numbers_title2">Numbers memorizing II</string>
+    <string name="tutorial_pi_title" translatable="false">@string/pi_digits</string>
 
     <string name="how_many_pi_digits_in_one_item">π digits in one cell</string>
     <string name="from_what_position_to_memorize">From what position to memorize</string>
@@ -492,6 +497,62 @@
             <a href="https://www.youtube.com/embed/CfRG2sT4WPo">Example of remembering cards</a>
             <h2>What you can learn?</h2>
             <p>Step by step you dominate main techniques of mnemonic and obtain skill to memorize lots of information in your life. Good luck!</p>
+        ]]>
+    </string>
+
+    <!--    Contour-->
+    <string name="lesson_intro_4">
+        <![CDATA[
+            <h1>Why Mnemonics?</h1>
+            <h2>What are mnemonic techniques?</h2>
+            <p>Mnemonic techniques are ways to help you memorize a phrase or idea with patterns. Mnemonic
+            techniques can include songs, poems, rhymes, outlines, images and acronyms. Mnemonics
+            give meaning to something ordinary to make it more memorable when you try to recall it. This
+            technique is useful for storing information in both your short- and long-term memory.</p>
+            <h2>Types of mnemonic techniques:</h2>
+            <ul>
+            <li>Spelling mnemonics</li>
+            <li>Feature mnemonics</li>
+            <li>Rhyming mnemonics</li>
+            <li>Note organization mnemonics</li>
+            <li>Alliteration mnemonics</li>
+            <li>Song mnemonics</li>
+            <li>Organization mnemonics</li>
+            <li>Visual mnemonics</li>
+            </ul>
+            <h2>How does Mnemonics positively affect your brain?</h2>
+            <p>Prior research has shown that mnemonic training creates new connections in your brain and
+            changes the brain’s organization. Ever wonder how child prodigies and geniuses are able to
+            reach the top of the medical and math fields at the age of 10? Well, research shows that the
+            reason for their abilities is primarily due to their mental capacities, and that their brains are
+            organized in specific ways to increase their short-term plus long-term memories. Their brains
+            are wired uniquely and mnemonic training helps our brains reorganize its functional network to
+            enable superior memory performance. In essence, we are shaping our brains to the mold of
+            geniuses.</p>
+            <h2>Who should use mnemonics?</h2>
+            <p>Mnemonics has a wide variety of applications, from helping students before a test,
+            fighting mental diseases, or even helping children continue cognitive development
+            despite malnutrition.</br></br>
+            Mnemonic training in elderly individuals at risk for dementia has shown increases in the
+            integration of memory processing in the brain. Those who are diagnosed with early Alzheimer’s
+            also show memory improvement. In one study, those with mild cognitive impairment (MCI) showed
+            a 33% improvement in scores on a memory assessment by learning how to properly use mnemonics.
+            Magnetic resonance imaging (MRI) also revealed that using mnemonics helped increase activity
+            in brain regions associated with processing language, learning skills, and spatial memory.</br></br>
+            Lastly, in many countries where malnutrition is an issue, mnemonics can help keep up
+            cognitive development. Malnutrition has been shown to have great effects on the
+            immediate memory individuals and that malnourished children incur serious problems in
+            cognitive development if they suffer from chronic malnutrition. Mnemonics can be used
+            as a tool in these cases, to continue to stimulate the brain and ensure that essential
+            neural pathways are not lost.</p>
+
+            <p>Sources used in this article and places to find more information:</p>
+            <ul>
+            <li><a href="https://www.livescience.com/35572-memory-tricks-improve-learning-early-alzheimers.html">https://www.livescience.com/35572-memory-tricks-improve-learning-early-alzheimers.html</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5651360/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5651360/</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5439266/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5439266/</a></li>
+            <li><a href="https://www.indeed.com/career-advice/career-development/how-to-use-mnemonic-techniques">https://www.indeed.com/career-advice/career-development/how-to-use-mnemonic-techniques</a></li>
+            </ul>
         ]]>
     </string>
 
@@ -905,6 +966,43 @@
         ]]>
     </string>
 
+    <string name="lesson_pi_0">
+        <![CDATA[
+            <h1>Pi digits memorization</h2>
+            <p>The process of memorizing the digits of pi, or π, is known as piphilology. The highest number of pi digits ever memorized is an astounding 100,000 ie a hundred thousand digits.</p>
+            <p>The website  <a href="http://www.pi-world-ranking-list.com">www.pi-world-ranking-list.com</a> provides a ranking of people who have successfully memorized many digits of pi, ranging from a few hundred to tens of thousands of digits.</p>
+            <p>Now, without further delay, let\'s look at the various methods of memorizing pi.</p>
+            <p>1) The first way involves the use of sentence mnemonics. The idea here is to count the number of letters in each word, in order. It would be better illustrated by an example :</p>
+            <p>\"Wow. I made a great discovery.\"</p>
+            <p>Here, the first word has 3 letters. So the first digit of pi is 3. Similarly, the second word has 1 letter, so the second digit of pi is 1. As we keep expanding, we get the value of pi to be 3.14159 from the above sentence.
+            Similarly, here are a few more sentence mnemonics for pi memorization :</p>
+            <p>\"Can I have a small container of coffee?\" (3.1415926…)</p>
+            <p>"How I want a drink, alcoholic of course, after the heavy lectures involving quantum mechanics." (3.14159265358979…)</p>
+            <p>The above method of memorizing pi is the simplest and the easiest one. All you have to memorize are the sentences. Go ahead, give it a try, I\'m sure you\'ll find it fun. You can ever create your own sentences!</p>
+            <p>2) The second way usually involves the use of the Major System, also popularly known as the Phonetic Number system.
+            This technique is considered to be a classic. Moreover, you can memorize way more digits using this method than the sentence mnemonics method.
+            Here is another explanation from a true memory champion : <a href="https://www.youtube.com/watch?v=mI96Ph-yHcA">explanation</a> </p>
+            <p>Here, we will assign a different sound to each digit from 0 to 9. These sounds will be as follows :</p>
+            <ul>
+            <li>0 - Z or S</li>
+            <li>1 - T or D</li>
+            <li>2 - N</li>
+            <li>3 - M</li>
+            <li>4 - R</li>
+            <li>5 - L</li>
+            <li>6 - SH or J or Soft G</li>
+            <li>7 - K or Hard C</li>
+            <li>8 - F or V</li>
+            <li>9 - P or B</li>
+            </ul>
+            <p>The trick here is to create silly words directly corresponding to the digits of pi. For example, to memorize the first number 3, all you need to do is remember the word M (remember, m is just like 3 but flipped over!) Some people use this to memorize hundreds and thousands of words. If you master this technique, there is literally nothing that would be able to stop you.</p>
+
+            <p>Also you can find more useful tricks in other lesson. See Memory Palace and number memorization section.</p>
+            <p>Don\'t worry, you will succeed!</p>
+        ]]>
+    </string>
+
+
     <!-- Tips -->
 
     <string name="first_start_info">
@@ -1110,8 +1208,8 @@
     <string name="in_new_version">
         <![CDATA[
             <h3>In the new version: </h3>
-            <p>• Added new settings for memorizing cards.</p>
-            <p>• Now you can memorize up to 9999 objects instead of 1000.</p>
+            <p>• Added theory for memorizing the digits of pi and added a chapter on mnemonics and health.</p>
+            <p>• Settings moved to the main screen.</p>
             <p>• Design improvements. Fixed bugs. </p>
         ]]>
     </string>
